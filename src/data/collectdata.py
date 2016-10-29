@@ -56,7 +56,7 @@ while (((datetime.now().month == 10) and (datetime.now().day > 24)) or ((datetim
     # collect Faulty Traffic Light data    
     with open('../../data/raw/FTL.txt', 'w') as outfile:
         try:
-            r = requests.get(uri + path_TI, headers=headers)
+            r = requests.get(uri + path_FTL, headers=headers)
             data = json.loads(r.text)
             timestamp=datetime.now().strftime("%Y-%m-%d %H:%M")
             data["timestamp"] = timestamp
@@ -67,7 +67,7 @@ while (((datetime.now().month == 10) and (datetime.now().day > 24)) or ((datetim
     # collect ERP Rates Data
     with open('../../data/raw/ERP.txt', 'w') as outfile:
         try:
-            r = requests.get(uri + path_TI, headers=headers)
+            r = requests.get(uri + path_ERP, headers=headers)
             data = json.loads(r.text)
             timestamp=datetime.now().strftime("%Y-%m-%d %H:%M")
             data["timestamp"] = timestamp
