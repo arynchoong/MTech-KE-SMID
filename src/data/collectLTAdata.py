@@ -9,11 +9,11 @@ Written for Python version: 3.5.2
 import json
 import urllib
 from urllib.request import urlopen
-from xml.etree import ElementTree
 from datetime import datetime
 from datetime import timedelta
 import time
 import csv
+import pandas
 
 # Authentication parameters
 headers = { 'AccountKey' : 'LBdfS4+RSEi4witEa6RjjQ==',
@@ -166,6 +166,28 @@ while (((datetime.now().month == 10) and (datetime.now().day > 24)) or ((datetim
     fileTI.close()
     fileFTL.close()
     fileETT.close()
+    
+    # remove duplicate rows fileTSB
+    rdfilepath_TSB = '../../data/interim/TSB' + today + '.csv'
+    records = pd.read_csv(filepath_TSB)
+    deduped = records.drop_duplicates(['MaximumSpeed', 'LinkID', 'RoadName', 'SpeedBand', 'RoadCategory', 'MinimumSpeed', 'Location'])
+    deduped.to_csv(rdfilepath_TSB, index=False)
+    # remove duplicate rows fileTI
+    rdfilepath_TI = '../../data/interim/TI' + today + '.csv'
+    records = pd.read_csv(filepath_TI)
+    deduped = records.drop_duplicates(['Latitude', 'Longitude', 'Message', 'Type'])
+    deduped.to_csv(rdfilepath_TI, index=False)
+    # remove duplicate rows fileFTL
+    rdfilepath_FTL = '../../data/interim/FTL' + today + '.csv'
+    records = pd.read_csv(filepath_FTL)
+    deduped = records.drop_duplicates(['AlarmID', 'NodeID', 'Type', 'StartDate', 'EndDate', 'Message'])
+    deduped.to_csv(rdfilepath_FTL, index=False)
+    # remove duplicate rows fileETT
+    rdfilepath_ETT = '../../data/interim/ETT' + today + '.csv'
+    records = pd.read_csv(filepath_ETT)
+    deduped = records.drop_duplicates(['Name', 'Direction', 'FarEndPoint', 'StartPoint', 'EndPoint', 'EstTime'])
+    deduped.to_csv(rdfilepath_ETT, index=False)
+
 fileRO.close()
 fileRW.close()
 
