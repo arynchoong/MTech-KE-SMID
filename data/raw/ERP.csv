@@ -1,0 +1,51 @@
+VehicleType,DayType,StartTime,EndTime,ZoneID,ChargeAmount,EffectiveDate
+Very Heavy Goods Vehicles/Big Buses,Weekdays,07:00,08:00,AY1,0,2016-08-01
+Very Heavy Goods Vehicles/Big Buses,Weekdays,08:05,08:55,AY1,2,2016-08-01
+Passenger Cars/Light Goods Vehicles/Taxis,Weekdays,08:55,09:00,AY1,0.5,2016-08-01
+Passenger Cars/Light Goods Vehicles/Taxis,Weekdays,09:00,22:30,AY1,0,2016-08-01
+Light Goods Vehicles,Weekdays,07:00,08:00,AY1,0,2016-08-01
+Light Goods Vehicles,Weekdays,08:05,08:55,AY1,1,2016-08-01
+Taxis,Weekdays,08:55,09:00,AY1,0.5,2016-08-01
+Taxis,Weekdays,09:00,22:30,AY1,0,2016-08-01
+Very Heavy Goods Vehicles/Big Buses,Weekdays,08:00,08:05,AY1,1,2016-08-01
+Motorcycles,Weekdays,07:00,08:00,AY1,0,2016-08-01
+Motorcycles,Weekdays,08:05,08:55,AY1,0.5,2016-08-01
+Light Goods Vehicles,Weekdays,08:00,08:05,AY1,0.5,2016-08-01
+Heavy Goods Vehicles/Small Buses,Weekdays,07:00,08:00,AY1,0,2016-08-01
+Heavy Goods Vehicles/Small Buses,Weekdays,08:05,08:55,AY1,1.5,2016-08-01
+Very Heavy Goods Vehicles/Big Buses,Weekdays,08:55,09:00,AY1,1,2016-08-01
+Very Heavy Goods Vehicles/Big Buses,Weekdays,09:00,22:30,AY1,0,2016-08-01
+Motorcycles,Weekdays,08:00,08:05,AY1,0.25,2016-08-01
+Passenger Cars/Light Goods Vehicles/Taxis,Weekdays,07:00,08:00,AY1,0,2016-08-01
+Passenger Cars/Light Goods Vehicles/Taxis,Weekdays,08:05,08:55,AY1,1,2016-08-01
+Light Goods Vehicles,Weekdays,08:55,09:00,AY1,0.5,2016-08-01
+Light Goods Vehicles,Weekdays,09:00,22:30,AY1,0,2016-08-01
+Heavy Goods Vehicles/Small Buses,Weekdays,08:00,08:05,AY1,0.75,2016-08-01
+Taxis,Weekdays,07:00,08:00,AY1,0,2016-08-01
+Taxis,Weekdays,08:05,08:55,AY1,1,2016-08-01
+Motorcycles,Weekdays,08:55,09:00,AY1,0.25,2016-08-01
+Motorcycles,Weekdays,09:00,22:30,AY1,0,2016-08-01
+Passenger Cars/Light Goods Vehicles/Taxis,Weekdays,08:00,08:05,AY1,0.5,2016-08-01
+Taxis,Weekdays,08:00,08:05,AY1,0.5,2016-08-01
+Heavy Goods Vehicles/Small Buses,Weekdays,08:55,09:00,AY1,0.75,2016-08-01
+Heavy Goods Vehicles/Small Buses,Weekdays,09:00,22:30,AY1,0,2016-08-01
+Light Goods Vehicles,Weekdays,08:30,08:35,AYC,2,2016-08-01
+Taxis,Weekdays,18:30,18:55,AYC,1,2016-08-01
+Passenger Cars/Light Goods Vehicles/Taxis,Weekdays,07:00,07:05,AYC,0.5,2016-08-01
+Taxis,Weekdays,07:05,07:30,AYC,1,2016-08-01
+Motorcycles,Weekdays,08:00,08:30,AYC,0.5,2016-08-01
+Light Goods Vehicles,Weekdays,09:25,09:30,AYC,1,2016-08-01
+Light Goods Vehicles,Weekdays,17:35,18:25,AYC,2,2016-08-01
+Taxis,Weekdays,18:55,19:00,AYC,0.5,2016-08-01
+Light Goods Vehicles,Weekdays,09:00,09:25,AYC,2,2016-08-01
+Very Heavy Goods Vehicles/Big Buses,Weekdays,07:35,07:55,AYC,4,2016-08-01
+Very Heavy Goods Vehicles/Big Buses,Weekdays,08:35,08:55,AYC,6,2016-08-01
+Passenger Cars/Light Goods Vehicles/Taxis,Weekdays,07:55,08:00,AYC,1.5,2016-08-01
+Very Heavy Goods Vehicles/Big Buses,Weekdays,17:30,17:35,AYC,2,2016-08-01
+Motorcycles,Weekdays,08:30,08:35,AYC,1,2016-08-01
+Passenger Cars/Light Goods Vehicles/Taxis,Weekdays,19:00,22:30,AYC,0,2016-08-01
+Taxis,Weekdays,07:00,07:05,AYC,0.5,2016-08-01
+Motorcycles,Weekdays,09:25,09:30,AYC,0.5,2016-08-01
+Motorcycles,Weekdays,17:35,18:25,AYC,1,2016-08-01
+Very Heavy Goods Vehicles/Big Buses,Weekdays,07:30,07:35,AYC,3,2016-08-01
+Motorcycles,Weekdays,09:00,09:25,AYC,1,2016-08-01
