@@ -1,4 +1,4 @@
-Road Name,Exit / Entrance Number,"Entrance (0), Exit (1)","Direction (0=Towards East, 1=Towards West)",Latitude,Longtitude
+RoadName,ExitOrEntranceNumber,ExitOrEntrance,Direction,Latitude,Longtitude
 Tuas Road,41,0,0,1.326231,103.665669
 AYE,41,0,0,1.326231,103.665669
 Upper Jurong Rd,40,1,0,1.329898,103.670945
