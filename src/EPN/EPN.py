@@ -41,71 +41,103 @@ urlWarning = 'http://api.nea.gov.sg/api/WebAPI/?dataset=heavy_rain_warning&keyre
 
 # Meteorological Service Singapore Rainfall observations
 urlRainfall = 'http://www.weather.gov.sg/weather-currentobservations-rainfall'
+driver = webdriver.PhantomJS(executable_path='../bin/phantomjs')
 
 # function to return time difference in seconds
 def getTimeDifference(TimeStart, TimeEnd):
     timeDiff = TimeEnd - TimeStart
     return timeDiff.total_seconds() / 60
 
-# initialise DataFrames' columns
-colTSB = ['MaximumSpeed', 'LinkID', 'RoadName', 'SpeedBand', 'RoadCategory', 'MinimumSpeed', 'Location']
+#initialise timewrites to 30 minutes ago
+timewrite_30min = datetime.now() - timedelta(minutes=30)
+timewrite_5min = timewrite_2min = timewrite_10min = timewrite_30min
 
+print(datetime.now())
 while ((datetime.now().month == 11) and (datetime.now().day < 13)):
+    timeNow = datetime.now()
 
-	if getTimeDifference(timewrite_5min, timeNow) > 5 :
-	    # Traffic Speed Band data - updates every 5 minutes
-		request = urllib.request.Request(uri + path_TSB, headers=headers)
-		try:
-			response = urlopen(request).read().decode('utf-8')
-		except HTTPError as e:
-			print (e)
-		else:
-			jsonObj = json.loads(response)
-		    messages = jsonObj.get("value")
-			dfTSB = pandas.DataFrame(messages)
+    if getTimeDifference(timewrite_5min, timeNow) > 5 :
+        # Traffic Speed Band data - updates every 5 minutes
+        request = urllib.request.Request(uri + path_TSB, headers=headers)
+        try:
+            response = urlopen(request).read().decode('utf-8')
+        except HTTPError as e:
+            print (e)
+        else:
+            jsonObj = json.loads(response)
+            messages = jsonObj.get("value")
+            dfTSB = pandas.DataFrame(messages)
 
-	    # ESTIMATED TRAVEL TIMES data - updates every 5 minutes
-		request = urllib.request.Request(uri + path_ETT, headers=headers)
-		try:
-			response = urlopen(request).read().decode('utf-8')
-		except HTTPError as e:
-			print (e)
-		else:
-			jsonObj = json.loads(response)
-		    messages = jsonObj.get("value")
-			dfETT = pandas.DataFrame(messages)
-		
-	    # set time for diff 5 mins
-	    timewrite_5min = datetime.now()
+        # ESTIMATED TRAVEL TIMES data - updates every 5 minutes
+        request = urllib.request.Request(uri + path_ETT, headers=headers)
+        try:
+            response = urlopen(request).read().decode('utf-8')
+        except HTTPError as e:
+            print (e)
+        else:
+            jsonObj = json.loads(response)
+            messages = jsonObj.get("value")
+            dfETT = pandas.DataFrame(messages)
+            
+        # set time for diff 5 mins
+        timewrite_5min = datetime.now()
 
-	if getTimeDifference(timewrite_2min, timeNow) > 2 :
-	    # collect Traffic Incidents data - updates every 2 minutes
+    if getTimeDifference(timewrite_2min, timeNow) > 2 :
+        # collect Traffic Incidents data - updates every 2 minutes
         request = urllib.request.Request(uri + path_TI, headers=headers)
-		try:
-			response = urlopen(request).read().decode('utf-8')
-		except HTTPError as e:
-			print (e)
-		else:
-			jsonObj = json.loads(response)
-		    messages = jsonObj.get("value")
-			dfTI = pandas.DataFrame(messages)
-		
-	    # collect Faulty Traffic Lights  data - updates every 2 minutes
-        request = urllib.request.Request(uri + path_FTL, headers=headers)
-		try:
-			response = urlopen(request).read().decode('utf-8')
-		except HTTPError as e:
-			print (e)
-		else:
-			jsonObj = json.loads(response)
-		    messages = jsonObj.get("value")
-			dfFTL = pandas.DataFrame(messages)
+        try:
+            response = urlopen(request).read().decode('utf-8')
+        except HTTPError as e:
+            print (e)
+        else:
+            jsonObj = json.loads(response)
+            messages = jsonObj.get("value")
+            dfTI = pandas.DataFrame(messages)
+        # set time for diff 2 mins
+        timewrite_2min = datetime.now()
 
-		# set time for diff 2 mins
-	    timewrite_2min = datetime.now()
-    
-	# wait 2 minutes
-	time.sleep(120)
+    if getTimeDifference(timewrite_30min, timeNow) > 30 :
+        # collect Nowcast data - updates every 30 mins
+        request = urllib.request.Request(urlNowcast)
+        try:
+            parsed = objectify.parse(urlopen(request))
+        except HTTPError as e:
+            print (e)
+        else:
+            parsed = objectify.parse(urlopen(request))
+            root = parsed.getroot()
+            dfNowcast = pandas.DataFrame(columns=['Forecast', 'Latitude', 'Longitude', 'Name'])
+            for area in root.iter('area'):
+                dfNowcast = dfNowcast.append({'Forecast':area.get('forecast'),'Latitude':area.get('lat'),'Longtitude':area.get('lon'),'Name':area.get('name')}, ignore_index=True)
+        # set time for diff 30 mins
+        timewrite_30min = datetime.now()
+
+    if getTimeDifference(timewrite_10min, timeNow) > 10 :
+        # collect Rainfall data - updates every 10 mins
+        try:
+            driver.get(urlRainfall)
+        except HTTPError as e:
+            print (e)
+        else:
+            # wait for page load
+            time.sleep(2)
+            html30mins = driver.page_source
+            bsObj = BeautifulSoup(html30mins,"lxml")
+            driver.close()
+            # Get data timestamp
+            element = bsObj.find("img", {"id":"basemap"})
+            pattern = re.compile('[0-9]+:[0-9]+')
+            rainfallTimestamp = pattern.findall(element.attrs['src'])[0]
+            # load 30 mins rainfall data
+            dataset30mins =  bsObj.findAll("",{"class":"sgr"})
+            dfRainfall = pandas.DataFrame(columns=['StationId', 'rain30mins'])
+            for data in dataset30mins:
+                dfRainfall = dfRainfall.append({'StationId':data.get('id'), 'rain30mins':data.get_text()},ignore_index=True)
+        # set time for diff 10 mins
+        timewrite_10min = datetime.now()
+
+    # wait 2 minutes
+    time.sleep(120)
 
 # on exit loop:
 print('exit' + datetime.now())
