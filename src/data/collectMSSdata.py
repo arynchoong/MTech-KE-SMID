@@ -22,8 +22,7 @@ import re
 
 # Meteorological Service Singapore Rainfall observations
 urlRainfall = 'http://www.weather.gov.sg/weather-currentobservations-rainfall'
-#driver = webdriver.PhantomJS(executable_path='../bin/phantomjs')
-driver = webdriver.PhantomJS()
+driver = webdriver.PhantomJS(executable_path='../bin/phantomjs')
 # time pattern
 pattern = re.compile('[0-9]+:[0-9]+')
 timewrite = datetime.now().strftime("%H:%M")
