@@ -75,5 +75,13 @@ ReadFromExpresswayCsv("pie.csv", PieArray)
 # Test Samples
 #1.358288, 103.700688 Nearest Exit Heading West is KJE, Heading East is Jalan Bahar
 #1.349450, 103.733615 Nearest Exit Heading West is Bukit Batok Rd, Heading East is Jurong West Ave 1
-print ("Nearest Exit To Avoid Jam is " + FindNearestExit(1.349450, 103.733615,PieArray,1).RoadName)
-print ("Nearest Entrance To Avoid Jam " + FindNearestEntrance(1.349450, 103.733615,PieArray,1).RoadName)
+
+# Now ask for input
+user_input = input("Enter the traffic incident coordinates (latitude,longtitude): ")
+# Now do something with the above
+#print ("Nearest Exit to avoid jam is " + FindNearestExit(1.349450, 103.733615,PieArray,1).RoadName)
+#print ("Nearest Entrance to avoid jam is " + FindNearestEntrance(1.349450, 103.733615,PieArray,1).RoadName)
+Coordinates = user_input.split(',')
+print ("Entered traffic incident coordinates: "+ Coordinates[0] + "," + Coordinates[1])
+print ("Nearest Exit to avoid jam is " + FindNearestExit(float(Coordinates[0]), float(Coordinates[1]),PieArray,1).RoadName)
+print ("Nearest Entrance to avoid jam is " + FindNearestEntrance(float(Coordinates[0]), float(Coordinates[1]),PieArray,1).RoadName)
