@@ -171,10 +171,9 @@ while ((datetime.now().month == 11) and (datetime.now().day < 13)):
             rainfallTimestamp = pattern.findall(element.attrs['src'])[0]
             # load 30 mins rainfall data
             dataset30mins =  bsObj.findAll("",{"class":"sgr"})
-            dfRainfall = pandas.DataFrame(columns=['StationId', 'rain30mins', 'Station'])
+            dfRainfall = pandas.DataFrame(columns=['StationId', 'rain30mins'])
             for data in dataset30mins:
-                station = patternStation.findall(data.get('data-content'))
-                dfRainfall = dfRainfall.append({'StationId':data.get('id'), 'rain30mins':data.get_text(), 'Station':station[0]},ignore_index=True)
+                dfRainfall = dfRainfall.append({'StationId':data.get('id'), 'rain30mins':data.get_text()},ignore_index=True)
             dfRainfall = dfRainfall.set_index('StationId')
             dfRainfall.index.name = None
             #sprint(dfRainfall.head(2))
@@ -193,56 +192,32 @@ while ((datetime.now().month == 11) and (datetime.now().day < 13)):
         dfRainfallPrev = dfRainfall
         initFlag = True
     else:
-        #compare changes and output messages
+        #compare changes
         if not (dfTSBprev.equals(dfTSB)):
             diffTSB = getDataframeDifferenceIndexed(dfTSBprev, dfTSB)
             print("\n" + datetime.now().strftime("%H:%M") + " TRAFFIC SPEED BAND")
-            for id, row in diffTSB.iterrows():
-                if (id[1] == 'SpeedBand'):
-                    if (row['from'] >= 2) and (row['to'] == 1):
-                        print ("Major jam at " + dfTSB.get_value(id[0],'RoadName'))
-                    elif (row['from'] >= 3) and (row['to'] == 2):
-                        print ("Traffic building at " + dfTSB.get_value(id[0],'RoadName'))
+            print(diffTSB)
             dfTSBprev = dfTSB
-
         if not (dfETTprev.equals(dfETT)):
             diffETT = getDataframeDifferenceIndexed(dfETTprev, dfETT)
             print("\n" + datetime.now().strftime("%H:%M") + " ESTIMATED TRVEL TIME")
-            for id, row in diffETT.iterrows():
-                if (id[1] == 'EstTime'):
-                    if (row['from'] < row['to']):
-                        print ("Lightening traffic from " + dfETT.get_value(id[0],'StartPoint')  + " to " + dfETT.get_value(id[0],'EndPoint'))
-                    else:
-                        print ("Slowing down from " + dfETT.get_value(id[0],'StartPoint')  + " to " + dfETT.get_value(id[0],'EndPoint'))
+            print(diffETT)
             dfETTprev = dfETT
-
         if not (dfTIprev.equals(dfTI)):
             diffTI = pandas.concat([dfTI, dfTIprev, dfTIprev]).drop_duplicates(keep=False)
-            print("\n" + datetime.now().strftime("%H:%M") + " TRAFFIC INCIDENCE")
-            for id, row in diffTI.iterrows():
-                print(row['Message'])
-            dfTIprev = dfTI
-
+            if not (diffTI.empty):
+                print("\n" + datetime.now().strftime("%H:%M") + " TRAFFIC INCIDENCE")
+                print(diffTI)
+            dfTIprev = dfTI.copy()
         if not (dfNowcastPrev.equals(dfNowcast)):
             print("\n" + datetime.now().strftime("%H:%M") + " 2 HOUR FORECAST")
             diffNowcast = getDataframeDifferenceIndexed(dfNowcastPrev, dfNowcast)
-            for id, row in diffNowcast.iterrows():
-                if (row['Forecast']  == "HR"):
-                    print ("Heavy Rain Forecast in " + id[0])
-                elif (row['Forecast']  == "HG"):
-                    print ("Heavy Thundery Showers with Gusty Winds Forecast in " + id[0])
-                elif (row['Forecast']  == "HS"):
-                    print ("Heavy Showers with Gusty Winds Forecast in " + id[0])
-                elif (row['Forecast']  == "HT"):
-                    print ("Heavy Thundery Showers with Gusty Winds Forecast in " + id[0])
+            print(diffNowcast)
             dfNowcastPrev = dfNowcast
-
         if not (dfRainfallPrev.equals(dfRainfall)):
             diffRainfall = getDataframeDifferenceIndexed(dfRainfallPrev, dfRainfall)
             print("\n" + datetime.now().strftime("%H:%M") + " CURRENT RAINFALL")
-            for id, row in dfRainfallPrev.iterrows():
-                if (row['rain30mins']  > 7.5):
-                    print ("Heavy Rain in " + row['Station'] + ", please take care.")
+            print(diffRainfall)
             dfRainfallPrev = dfRainfalls
 
     # wait 2 minutes
