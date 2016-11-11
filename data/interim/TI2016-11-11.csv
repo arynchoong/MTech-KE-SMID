@@ -1,0 +1,489 @@
+DateTime,Latitude,Longitude,Message,Type
+00:00,1.3378719086159,103.89609748593412,(10/11)23:38 Roadworks on KPE (towards TPE) at Bartley Rd East Exit.,Roadwork
+00:00,1.2713287982022716,103.85580227842064,(10/11)23:16 Roadworks on MCE (towards ECP) after Maxwell Rd Entrance. Avoid lanes 5 and 6.,Roadwork
+00:00,1.347648120260615,103.89844750981516,(10/11)23:15 Roadworks on KPE (towards ECP) before Airport Rd Exit. Avoid lane 3.,Roadwork
+00:00,1.3121156528148563,103.76270053708845,(10/11)22:52 Roadworks on AYE (towards MCE) before Clementi Ave 2 Exit. Avoid lane 4.,Roadwork
+00:00,1.2911875423037502,103.80933281241128,(10/11)22:51 Roadworks on Leng Kee Road (towards Alexandra Road) after Kung Chong Road.,Roadwork
+00:00,1.3006518226289858,103.8409766916181,(10/11)22:35 Roadworks on Orchard Road (towards Bras Basah Rd) after Grange Road.,Roadwork
+00:00,1.338856533670388,103.86190703966213,(10/11)22:16 Roadworks on CTE (towards SLE) after Braddell Rd Exit. Avoid lane 4.,Roadwork
+00:00,1.3545689755593393,103.832780617195,(10/11)22:12 Roadworks on Upper Thomson Road (towards Newton) after Bright Hill Drive. Avoid right lane.,Roadwork
+00:00,1.2951389142840646,103.8704713562434,(10/11)22:03 Roadworks on ECP (towards City) after KPE Exit. Avoid lane 5.,Roadwork
+00:00,1.4099040289122151,103.77237292655244,(10/11)22:01 Roadworks on Mandai Road near BKE/Mandai Road Junction.,Roadwork
+00:00,1.380839552327176,103.91915873755491,(10/11)21:58 Roadworks on TPE (towards PIE) after KPE Exit. Avoid lane 1.,Roadwork
+00:00,1.3421685716103415,103.94861465115379,(10/11)21:57 Roadworks on PIE (towards Tuas) at Simei Ave Exit.,Roadwork
+00:00,1.2805432743073797,103.83934057326915,(10/11)21:54 Roadworks on Outram Road near Eu Tong Sen Street/Outram Road Junction.,Roadwork
+00:00,1.3430415017352144,103.86851150669445,(10/11)21:33 Roadworks on Braddell Road (towards Tampines) at Woodleigh Underpass. Avoid left lane.,Roadwork
+00:00,1.3537679800239042,103.83379993986236,(10/11)21:31 Roadworks on Upper Thomson Road (towards Newton) after Bright Hill Drive. Avoid right lane.,Roadwork
+00:00,1.2860018075053739,103.84752179340458,(10/11)21:31 Roadworks on South Bridge Road near Pickering Street/South Bridge Road Junction.,Roadwork
+00:00,1.2840203177417344,103.8528505791312,(10/11)21:30 Roadworks on Collyer Quay (towards Guillemard) after Marina Boulevard. Avoid left lane.,Roadwork
+00:00,1.2956562965037632,103.8901209754378,(10/11)21:28 Roadworks on ECP (towards Changi Airport) before Tg Katong Rd Exit. Avoid lanes 1 and 2.,Roadwork
+00:00,1.306109941450989,103.83860912612822,(10/11)21:27 Roadworks on Cairnhill Circle near Cairnhill Circle/Cairnhill Road Junction.,Roadwork
+00:00,1.2986724667715803,103.85384303443728,(10/11)21:22 Roadworks on Middle Road (towards Victoria Street) after Queen Street.,Roadwork
+00:00,1.3137110664246059,103.87481620604835,(10/11)21:20 Roadworks on Sims Way (towards Sims Avenue) after PIE. Avoid left lane.,Roadwork
+00:00,1.2944284915859388,103.86651398336231,(10/11)21:14 Roadworks on ECP (towards Changi Airport) before Fort Rd Exit. Avoid lane 1.,Roadwork
+00:00,1.322098718410645,103.89112686172281,(10/11)21:13 Roadworks on Paya Lebar Road (towards PIE) after PIE. Avoid left lane.,Roadwork
+00:00,1.2828156982623822,103.85237990632378,(10/11)20:46 Roadworks on Collyer Quay (towards Shenton Way) after Fullerton Road. Avoid left lane.,Roadwork
+00:00,1.3455313214457878,103.89092362374619,(10/11)20:36 Roadworks on Hougang Avenue 3 (towards Bartley Road East) after Defu Avenue 1. Avoid left lane.,Roadwork
+00:00,1.3231629976744552,103.89280054876242,(10/11)20:33 Roadworks on PIE (towards Tuas) at Paya Lebar Rd Exit.,Roadwork
+00:00,1.4240378503358468,103.7590614690152,(10/11)20:32 Roadworks on Woodlands Road (towards City) after BKE. Avoid right lane.,Roadwork
+00:00,1.3285246118742533,103.75749304068351,(10/11)20:29 Roadworks on Toh Tuck Avenue (towards Old Toh Tuck Road) after Toh Tuck Link. Avoid left lane.,Roadwork
+00:00,1.344731379532018,103.64020163312472,(10/11)20:06 Roadworks on AYE (towards Tuas) at Tuas West Dr Exit.,Roadwork
+00:02,1.29619653726736,103.89508681334999,(10/11)21:28 Roadworks on ECP (towards Changi Airport) before Tg Katong Rd Exit. Avoid lanes 1 and 2.,Roadwork
+00:06,1.3285669833019145,103.86750698586306,(10/11)23:57 Roadworks on PIE (towards Changi Airport) before Kallang Way. Avoid lane 4.,Roadwork
+00:15,1.2778658636258828,103.87055782430349,"(11/11)0:11 Roadworks on MCE (towards ECP) after Marina Blvd Entrance. Avoid lanes 1, 2 and 3.",Roadwork
+00:19,1.3427257124956895,103.98237563795105,(11/11)0:16 Roadworks on ECP (towards City) before PIE(Tuas) Exit. Avoid lanes 3 and 4.,Roadwork
+00:19,1.3286808072847869,103.74412245770971,(11/11)0:14 Roadworks on Jurong Town Hall Road near Jurong East Street 11/Jurong Town Hall Road Junction.,Roadwork
+00:21,1.291163768199089,103.85515809789322,(11/11)0:16 Roadworks on Raffles Avenue (towards Nicoll Highway) after Raffles Link. Avoid left lane.,Roadwork
+00:25,1.3289629802795924,103.88493717230764,(10/11)23:15 Roadworks on KPE (towards ECP) after Airport Rd Entrance. Avoid lane 3.,Roadwork
+00:29,1.3417683818613195,103.9819450094638,(11/11)0:16 Roadworks on ECP (towards City) before PIE(Tuas) Exit. Avoid lanes 3 and 4.,Roadwork
+00:33,1.3934234206499787,103.77402405084072,(11/11)0:29 Accident on BKE (towards Woodlands) after KJE Exit.,Accident
+00:37,1.3346924194612106,103.7611228235103,(11/11)0:34 Vehicle breakdown on PIE (towards Changi Airport) after Bukit Batok East Ave 3.,Vehicle breakdown
+00:37,1.334831845661603,103.7608318757464,(11/11)0:34 Vehicle breakdown on PIE (towards Changi Airport) after Bukit Batok East Ave 3.,Vehicle breakdown
+00:43,1.2951389142840646,103.8704713562434,(10/11)22:03 Roadworks on ECP (towards City) after KPE Exit. Avoid lane 4.,Roadwork
+00:45,1.308157152354306,103.84174874661693,(10/11)23:44 Roadworks in CTE Tunnel (towards SLE) after Cairnhill Circle Entrance. Avoid lanes 3 and 4.,Roadwork
+00:47,1.308157152354306,103.84174874661693,(11/11)0:44 Roadworks in CTE Tunnel (towards SLE) after Cairnhill Circle Entrance. Avoid lanes 3 and 4.,Roadwork
+00:47,1.2894774057571563,103.84209859478115,(11/11)0:44 Roadworks in CTE Tunnel (towards SLE) before Merchant Rd Exit. Avoid lanes 2 and 3.,Roadwork
+00:49,1.270309415603942,103.85876723597788,(11/11)0:45 Roadworks on MCE (towards ECP) before Central Blvd Exit. Avoid lane 3.,Roadwork
+00:51,1.308150033377708,103.87724363086642,(11/11)0:44 Roadworks on KPE (towards ECP) at Nicoll Highway Exit. Nicoll Highway Exit closed.,Roadwork
+00:53,1.3292274894746934,103.97496349120286,(11/11)0:46 Roadworks on ECP (towards City) after PIE(Tuas) Exit. Avoid lane 1.,Roadwork
+01:01,1.2713287982022716,103.85580227842064,(11/11)0:50 Vehicle breakdown on MCE (towards AYE) before Maxwell Rd Exit.,Vehicle breakdown
+01:09,1.3354686230484454,103.93154858238474,(11/11)0:54 Roadworks on PIE (towards Changi Airport) after Bedok North Ave 3. Avoid lane 3.,Roadwork
+01:13,1.320788229034196,103.87768410623829,(10/11)23:15 Roadworks on KPE (towards ECP) before Sims Ave Exit. Avoid lane 3.,Roadwork
+04:27,1.4154891878101128,103.7713628678912,(11/11)3:44 Roadworks on BKE (towards Woodlands) after Mandai Rd Entrance. Avoid lane 1.,Roadwork
+04:27,1.3615554279637865,103.70304332787512,(11/11)2:49 Roadworks on KJE (towards BKE) after PIE Entrance. Avoid lane 1.,Roadwork
+04:27,1.3956601643110584,103.90523578699585,(11/11)2:35 Roadworks on TPE (towards SLE) after Punggol Rd Exit.,Roadwork
+04:27,1.2944449496579762,103.8666175136894,(11/11)2:16 Roadworks on ECP (towards Changi Airport) before Fort Rd Exit. Avoid lane 1.,Roadwork
+05:35,1.3169687010582738,103.8480276799624,(11/11)5:32 Vehicle breakdown on CTE (towards SLE) before Moulmein Rd Exit.,Vehicle breakdown
+06:47,1.3140967889611546,103.95617579158329,(11/11)6:44 Vehicle breakdown on ECP (towards City) after East Coast Park Carpark H Exit.,Vehicle breakdown
+06:53,1.396188690319041,103.77390840627716,(11/11)6:51 Heavy Traffic on BKE (towards PIE) between Mandai Rd Exit and KJE Exit.,Heavy Traffic
+06:53,1.3140967889611546,103.95617579158329,(11/11)6:45 Vehicle breakdown on ECP (towards City) after East Coast Park Carpark H Exit.,Vehicle breakdown
+06:57,1.3261491297227923,103.66589576924143,(11/11)6:55 Heavy Traffic on PIE (towards Tuas) at AYE Exit.,Heavy Traffic
+06:57,1.366902620448028,103.7105197472428,(11/11)6:53 Heavy Traffic on KJE (towards PIE) between Sungei Tengah Exit and PIE(Changi) Exit.,Heavy Traffic
+07:07,1.3285751341043446,103.84669985437706,(11/11)7:04 Accident on PIE (towards Tuas) at Toa Payoh Entrance.,Accident
+07:09,1.3285751341043446,103.84669985437706,(11/11)7:05 Accident on PIE (towards Tuas) at Toa Payoh Entrance.,Accident
+07:09,1.3713022054538908,103.90832880383286,(11/11)7:05 Heavy Traffic on KPE (towards ECP) after Buangkok Dr Entrance.,Heavy Traffic
+07:11,1.328536699142304,103.846601731944,(11/11)7:07 Obstacle on PIE (towards Tuas) at Toa Payoh Entrance.,Obstacle
+07:27,1.4101622688836877,103.76997908020522,(11/11)7:25 Roadworks on Mandai Road (towards BKE) after Mandai Road Track 16.,Roadwork
+07:32,1.3167382798188139,103.8068806137578,(11/11)7:28 Heavy Traffic on Farrer Road (towards Queensway) between Dunearn Road and Farrer Flyover.,Heavy Traffic
+07:40,1.3338854503945217,103.81398603248829,(11/11)7:37 Heavy Traffic on PIE (towards Changi Airport) at Lornie Rd Exit.,Heavy Traffic
+07:50,1.3493289884059123,103.77024244965814,(11/11)7:46 Heavy Traffic on Upper Bukit Timah Road (towards City) between Cashew Road and Hillview Road.,Heavy Traffic
+07:52,1.308116633609529,103.8026126023907,(11/11)7:28 Heavy Traffic on Queensway (towards AYE) between Farrer Flyover and Holland Road.,Heavy Traffic
+07:54,1.362927708726848,103.95867721350893,(11/11)7:49 Heavy Traffic on TPE (towards PIE) between Elias Rd Exit and Loyang Ave Exit.,Heavy Traffic
+07:54,1.3097004372823606,103.87581598155748,(11/11)7:49 Heavy Traffic on KPE (towards ECP) at Nicoll Highway Exit.,Heavy Traffic
+07:58,1.362927708726848,103.95867721350893,(11/11)7:49 Heavy Traffic on TPE (towards PIE) between Punggol Rd Exit and Loyang Ave Exit.,Heavy Traffic
+08:00,1.322324975315273,103.70032135770347,(11/11)7:56 Vehicle breakdown on AYE (towards Tuas) after Pioneer Rd Exit. Avoid lane 3.,Vehicle breakdown
+08:00,1.329154593407743,103.8411721332463,(11/11)7:55 Vehicle breakdown on PIE (towards Tuas) after Thomson Rd Exit. Avoid lane 3.,Vehicle breakdown
+08:04,1.2805541522965609,103.85122959006979,(11/11)8:00 Heavy Traffic on Central Boulevard (towards Raffles Quay) after Marina View.,Heavy Traffic
+08:06,1.39578543791411,103.77403925858226,(11/11)8:02 Heavy Traffic on BKE (towards PIE) at KJE(PIE) Exit.,Heavy Traffic
+08:06,1.2926316971040548,103.78730350827816,(11/11)8:01 Heavy Traffic on AYE (towards Tuas) at South Buona Vista Rd Exit.,Heavy Traffic
+08:14,1.3560010395965811,103.96321126576416,(11/11)7:49 Heavy Traffic on TPE (towards PIE) between Sengkang Exit and PIE Exit.,Heavy Traffic
+08:18,1.392983464449565,103.82620704428378,(11/11)8:14 Vehicle breakdown on SLE (towards CTE) before Lentor Ave Exit.,Vehicle breakdown
+08:20,1.3419627851809062,103.94724441202624,(11/11)8:15 Heavy Traffic on PIE (towards Changi Airport) at Simei Ave Exit.,Heavy Traffic
+08:20,1.309763814817412,103.76485424238864,(11/11)8:15 Vehicle breakdown on AYE (towards Tuas) after Clementi Ave 2 Exit.,Vehicle breakdown
+08:22,1.3252052725062429,103.9023654202602,(11/11)8:19 Heavy Traffic on PIE (towards Tuas) between Tampines and Jalan Eunos.,Heavy Traffic
+08:24,1.2826444242808088,103.85059730277098,(11/11)8:20 Heavy Traffic on Cecil Street (towards Robinson Road) after Church Street.,Heavy Traffic
+08:24,1.4118407497367096,103.76048234173136,(11/11)8:19 Roadworks on Mandai Road (towards Mandai Link) after Mandai Link. Avoid left lane.,Roadwork
+08:24,1.3480785791644652,103.85886686151669,(11/11)8:18 Heavy Traffic on CTE (towards AYE) between AMK Ave 5 Exit and PIE(Changi) Exit.,Heavy Traffic
+08:26,1.2955502602135194,103.87898571505077,(11/11)8:21 Heavy Traffic on ECP (towards City) after Fort Rd Exit.,Heavy Traffic
+08:28,1.3157600313758482,103.75927776831364,(11/11)8:24 Vehicle breakdown on AYE (towards MCE) at Clementi Ave 6 Exit.,Vehicle breakdown
+08:30,1.3587011860693865,103.70133198635295,(11/11)8:27 Vehicle breakdown on PIE (towards Tuas) before Jalan Bahar.,Vehicle breakdown
+08:30,1.3796951926164276,103.92079402753427,(11/11)8:27 Accident on TPE (towards PIE) after KPE Exit.,Accident
+08:32,1.3176830200918548,103.83534812797244,(11/11)8:29 Vehicle breakdown on Dunearn Road (towards City) after Wayang Satu Flyover.,Vehicle breakdown
+08:32,1.2955529710314362,103.8791110528842,(11/11)8:29 Heavy Traffic on ECP (towards City) between Still Rd Sth Exit and Fort Rd Exit.,Heavy Traffic
+08:36,1.3176830200918548,103.83534812797244,(11/11)8:29 Vehicle breakdown on Dunearn Road (towards City) after Wayang Satu Flyover with congestion till Whitley Road.,Vehicle breakdown
+08:38,1.3531391661638918,103.83450943703522,(11/11)8:34 Heavy Traffic on Upper Thomson Road (towards Newton) between Sin Ming Avenue and Bright Hill Drive.,Heavy Traffic
+08:40,1.2810479581667735,103.85057005738274,(11/11)8:37 Heavy Traffic on Cross Street (towards Robinson Road) after Raffles Quay.,Heavy Traffic
+08:44,1.3441969627848658,103.87737726209141,(11/11)8:40 Heavy Traffic on Bartley Road (towards Braddell) between Upper Paya Lebar Road and Mount Vernon Road.,Heavy Traffic
+08:46,1.2850966820847878,103.8530665872617,(11/11)8:43 Heavy Traffic on Battery Road (towards Flint Street) after Fullerton Road.,Heavy Traffic
+08:48,1.3247457556385789,103.74205979117077,(11/11)8:45 Vehicle breakdown on AYE (towards Tuas) before Penjuru Rd Exit.,Vehicle breakdown
+08:54,1.2933046719940258,103.85606625518517,(11/11)8:49 Heavy Traffic on Nicoll Highway (towards Shenton Way) after Middle Road.,Heavy Traffic
+08:56,1.2811823323889946,103.8513440682153,(11/11)8:53 Heavy Traffic on Raffles Quay (towards Shenton Way) after Marina Boulevard.,Heavy Traffic
+08:56,1.321906050486342,103.667375874261,(11/11)8:52 Vehicle breakdown on AYE (towards MCE) after PIE Exit. Avoid lane 4.,Vehicle breakdown
+08:56,1.3176830200918548,103.83534812797244,(11/11)8:29 Heavy Traffic on Dunearn Road (towards City) after Wayang Satu Flyover,Heavy Traffic
+09:02,1.287972332853468,103.79394345610982,(11/11)8:57 Heavy Traffic on AYE (towards Tuas) at Normanton Park Exit.,Heavy Traffic
+09:04,1.3262775526214967,103.66594976349852,(11/11)9:01 Vehicle breakdown on PIE (towards Tuas) at AYE Exit.,Vehicle breakdown
+09:06,1.3969844813071188,103.90333631022936,(11/11)9:02 Vehicle breakdown on TPE (towards SLE) after Punggol Rd Exit.,Vehicle breakdown
+09:10,1.3560010395965811,103.96321126576416,(11/11)7:49 Heavy Traffic on TPE (towards PIE) between Pasir Ris Dr 8 Exit and PIE Exit.,Heavy Traffic
+09:16,1.2802414201670969,103.85161658823364,(11/11)9:13 Heavy Traffic on Central Boulevard (towards Raffles Quay) after Marina View.,Heavy Traffic
+09:30,1.4217459062073468,103.7964579581472,(11/11)9:26 Vehicle breakdown on SLE (towards BKE) before Woodlands Ave 12 Exit.,Vehicle breakdown
+09:30,1.3800948521678005,103.91566381811272,(11/11)9:25 Vehicle breakdown on KPE (towards ECP) after TPE Entrance.,Vehicle breakdown
+09:32,1.2995338568602135,103.89767424362844,(11/11)9:28 Roadworks on Tanjong Katong Road South (towards Amber Gardens) after ECP. Avoid right lane.,Roadwork
+09:36,1.3542199813994449,103.83332658511328,(11/11)9:33 Roadworks on Upper Thomson Road (towards Newton) after Bright Hill Drive. Avoid right lane.,Roadwork
+09:36,1.3338854503945217,103.81398603248829,(11/11)9:33 Heavy Traffic on PIE (towards Changi Airport) at Lornie Rd Exit.,Heavy Traffic
+09:36,1.3299653859295155,103.91439063465263,(11/11)9:32 Stationary Vehicle on PIE (towards Tuas) after Bedok North Rd.,Unattended Vehicle
+09:38,1.3790999702183986,103.8582737613068,(11/11)9:35 Accident on CTE (towards AYE) before AMK Ave 5 Exit. Avoid lane 1.,Accident
+09:38,1.3577708398065915,103.85727901735285,(11/11)9:34 Accident on CTE (towards AYE) before AMK Ave 1 Exit. Avoid lane 2.,Accident
+09:38,1.3800948521678005,103.91566381811272,(11/11)9:27 Vehicle breakdown on KPE (towards ECP) after TPE Entrance.,Vehicle breakdown
+09:40,1.31007511197161,103.73784469112007,(11/11)9:36 Roadworks on Jalan Buroh (towards City) after Penjuru Road. Avoid right lane.,Roadwork
+09:40,1.3192183887268112,103.7713464490723,(11/11)9:34 Obstacle on Ulu Pandan Road (towards Clementi Road) after Clementi Road.,Obstacle
+09:42,1.307701462539559,103.7861206660359,(11/11)9:37 Roadworks on Commonwealth Avenue West (towards Tuas) after Vista Exchange Green. Avoid left lane.,Roadwork
+09:42,1.3655273080810992,103.95354912911257,(11/11)9:12 Roadworks on TPE (towards PIE) after Pasir Ris Dr 8 Exit. Avoid lane 1.,Roadwork
+09:44,1.3076604494880908,103.73991611184674,(11/11)9:41 Roadworks on Jalan Buroh (towards Tuas) after Tanjong Penjuru.,Roadwork
+09:44,1.4068847589794398,103.80874966568136,(11/11)9:40 Roadworks on SLE (towards BKE) after Upper Thomson Rd Exit. Avoid lane 1.,Roadwork
+09:44,1.3539217265108359,103.96361723322781,(11/11)9:40 Roadworks on PIE (towards Changi Airport) at TPE Exit.,Roadwork
+09:44,1.3353943350172528,103.78461073745285,(11/11)9:39 Roadworks on Bukit Timah Road (towards Woodlands) after Holland Link.,Roadwork
+09:44,1.3067899752797036,103.87363541916716,(11/11)9:39 Roadworks on Nicoll Highway (towards Shenton Way) after Stadium Drive. Avoid right lane.,Roadwork
+09:46,1.319344045560899,103.82896976761648,(11/11)9:43 Roadworks on Bukit Timah Road (towards Woodlands) after Balmoral Road. Avoid left lane.,Roadwork
+09:46,1.3190145787336611,103.90385262991421,(11/11)9:43 Roadworks on Sims Avenue (toward Changi) after Paya Lebar Road. Avoid right lane.,Roadwork
+09:46,1.343054722301806,103.8679685068832,(11/11)9:41 Roadworks on Braddell Road (towards Lornie) after Upper Serangoon Road. Avoid left lane.,Roadwork
+09:46,1.3205311037858731,103.85511915633666,(11/11)9:41 Heavy Traffic on CTE (towards AYE) between PIE(Changi) Exit and Balestier Rd Exit.,Heavy Traffic
+09:46,1.310230642765777,103.73756668365587,(11/11)9:41 Roadworks on Jalan Buroh (towards Tuas) after Tanjong Penjuru.,Roadwork
+09:46,1.3446068975007617,103.72596611543429,(11/11)9:40 Roadworks on Boon Lay Way (towards Tuas) after Jurong Town Hall Road.,Roadwork
+09:48,1.2996224432576942,103.85921455193169,(11/11)9:44 Roadworks on Beach Road (towards Ophir Road) after Rochor Road. Avoid right lane.,Roadwork
+09:50,1.3192183887268112,103.7713464490723,(11/11)9:34 Obstacle on Ulu Pandan Road (towards Clementi Road) after Clementi Road. Avoid left lane.,Obstacle
+09:52,1.2805299636311502,103.84429727819658,(11/11)9:48 Roadworks on South Bridge Road (towards Maxwell Road) after Sago Lane. Avoid left lane.,Roadwork
+09:52,1.361221637840624,103.96210181694416,(11/11)9:48 Roadworks on Loyang Avenue (towards Old Tampines Road) after TPE. Avoid left lane.,Roadwork
+09:52,1.3331631440475216,103.7707858612474,(11/11)9:47 Roadworks on PIE (towards Tuas) before Clementi Ave 6 Exit.,Roadwork
+09:54,1.3593357061218552,103.85338034184228,(11/11)9:51 Roadworks on Ang Mo Kio Avenue 1 (towards Ang Mo Kio Avenue 10) after Ang Mo Kio Avenue 8. Avoid left lane.,Roadwork
+09:54,1.3711955464424297,103.9369535760265,(11/11)9:50 Roadworks on Tampines Link (towards Tampines Industrial Street 62) after Tampines Road. Avoid left lane.,Roadwork
+09:54,1.3982380999050723,103.89537888726505,(11/11)9:46 Roadworks on Sengkang East Road (towards Anchorvale Street) after TPE.,Roadwork
+09:58,1.3484433166944922,103.78991514099864,(11/11)9:55 Accident on PIE (towards Tuas) after BKE. Avoid lane 1.,Accident
+09:58,1.3713817369566954,103.82856344022778,(11/11)9:55 Roadworks on Upper Thomson Road (towards SLE) after Ang Mo Kio Avenue 1. Avoid left lane.,Roadwork
+09:58,1.296093225228489,103.85180197192038,(11/11)9:54 Roadworks on Bras Basah Road (towards Raffles Boulevard) after Prinsep Street. Avoid right lane.,Roadwork
+09:58,1.3651125138899134,103.96601331182386,(11/11)9:54 Roadworks on Loyang Avenue (towards Pasir Ris Drive 1) after New Loyang Link. Avoid left lane.,Roadwork
+09:58,1.330477240348575,103.86225755044144,(11/11)9:54 Vehicle breakdown on PIE (towards Changi Airport) after CTE.,Vehicle breakdown
+09:58,1.2724229880860782,103.83443374264286,(11/11)9:54 Roadworks on AYE (towards MCE) at Keppel Rd Entrance.,Roadwork
+10:02,1.3304667124445426,103.96551411444645,(11/11)9:58 Roadworks on Changi South Avenue 3 (towards Changi South Avenue 2) after Xilin Avenue. Avoid right lane.,Roadwork
+10:02,1.2955418452044016,103.85150760511108,(11/11)9:58 Roadworks on Victoria Street (towards Bras Basah Road) after Stamford Road. Avoid right lane.,Roadwork
+10:02,1.2724558952434541,103.84116549781496,(11/11)9:57 Roadworks on Keppel Road (towards Tuas) after Shenton Way. Avoid left lane.,Roadwork
+10:04,1.3484433166944922,103.78991514099864,(11/11)9:55 Accident on PIE (towards Tuas) after BKE. Avoid lanes 1 and 2.,Accident
+10:04,1.3085842395576797,103.7833258785516,(11/11)10:01 Roadworks on Commonwealth Avenue West (towards City) after Ghim Moh Link. Avoid left lane.,Roadwork
+10:04,1.2722584839091695,103.83186637559857,(11/11)9:59 Roadworks on Keppel Road (towards City) after Kampong Bahru Road. Avoid right lane.,Roadwork
+10:04,1.4025197475437936,103.77342851188415,(11/11)9:29 Roadworks on BKE (towards PIE) after Mandai Rd Exit. Avoid lane 1.,Roadwork
+10:04,1.31235305859001,103.77379760831651,(11/11)10:02 Roadworks on Commonwealth Avenue West (towards City) after Clementi Road. Avoid right lane.,Roadwork
+10:06,1.2924743380451331,103.80771901840934,(11/11)10:00 Roadworks on Commonwealth Avenue (towards Tuas) after Alexandra Road. Avoid right lane.,Roadwork
+10:06,1.4012807558428075,103.87816589570568,(11/11)10:01 Vehicle breakdown on TPE (towards PIE) before Seletar Link Exit.,Vehicle breakdown
+10:08,1.3122077178023746,103.77728073768264,(11/11)10:05 Roadworks on Commonwealth Avenue West (towards City) after Clementi Road. Avoid right lane.,Roadwork
+10:10,1.3285190800830171,103.96564482218216,(11/11)10:07 Roadworks on Xilin Avenue (towards Changi South Avenue 3) after ECP.,Roadwork
+10:10,1.3319067847406365,103.96580863829858,(11/11)10:01 Roadworks on Changi South Avenue 2 (towards Changi South Avenue 3) after Changi South Street 2.,Roadwork
+10:12,1.3333746256648458,103.9616059790649,(11/11)10:10 Roadworks on Changi South Avenue 2 near Changi South Avenue 1/Changi South Avenue 2 Junction.,Roadwork
+10:12,1.3487599274841404,103.7144872686153,(11/11)10:10 Roadworks on Corporation Road near Corporation Road/Jurong West Avenue 1 Junction.,Roadwork
+10:12,1.3524310650713176,103.95462778026956,(11/11)10:09 Roadworks on Tampines Avenue 2 near Tampines Avenue 2/Tampines Street 31 Junction.,Roadwork
+10:12,1.2979453344748544,103.8854708911536,(11/11)10:08 Roadworks on Meyer Road near Fort Road/Meyer Road Junction.,Roadwork
+10:12,1.4005306078071456,103.85872894709179,(11/11)9:17 Roadworks on TPE (towards SLE) at SLE(BKE) Exit.,Roadwork
+10:12,1.3976755862416577,103.85402349820231,(11/11)9:16 Roadworks on SLE (towards CTE) after TPE Exit. Avoid lane 3.,Roadwork
+10:12,1.0162642548260388,103.5817518079541,(11/11)10:11 Vehicle breakdown on KPE (towards ECP) at Buangkok Drive Exit.,Vehicle breakdown
+10:14,1.3415831760954162,103.98182295628834,(11/11)10:11 Roadworks on ECP (towards Changi Airport) after PIE Exit. Avoid lane 4.,Roadwork
+10:14,1.4006732134918294,103.85904506973635,(11/11)9:17 Roadworks on TPE (towards SLE) before CTE Exit. Avoid lane 4.,Roadwork
+10:14,1.3604700622637438,103.71066968432078,(11/11)10:12 Vehicle breakdown on PIE (towards Changi Airport) before Jurong West Ave 2.,Vehicle breakdown
+10:14,1.3644749396476126,103.85964493290324,(11/11)10:12 Vehicle breakdown on CTE (towards AYE) before AMK Ave 1 Exit.,Vehicle breakdown
+10:16,1.3484433166944922,103.78991514099864,(11/11)9:55 Accident on PIE (towards Tuas) after BKE with congestion till Eng Neo Ave. Avoid lanes 1 and 2.,Accident
+10:16,1.3083307822402075,103.87709699102348,(11/11)10:14 Roadworks on Sims Way near Mountbatten Road/Nicoll Highway Junction.,Roadwork
+10:16,1.3624067341499158,103.95951268169986,(11/11)10:13 Roadworks on TPE (towards PIE) at Loyang Ave Exit.,Roadwork
+10:16,1.3246856439829782,103.93605144929123,(11/11)10:13 Roadworks on New Upper Changi Road (toward City) after Bedok South Avenue 3.,Roadwork
+10:16,1.3362732645265856,103.97954993055241,(11/11)10:00 Roadworks on ECP (towards Changi Airport) after PIE Exit. Avoid lane 3.,Roadwork
+10:16,1.3086044565729658,103.93515950473629,(11/11)10:00 Roadworks on ECP (towards City) at Bedok South Ave 1 Entrance.,Roadwork
+10:16,1.3689186956636863,103.8312597841627,(11/11)9:52 Roadworks on Ang Mo Kio Avenue 2 (towards Ang Mo Kio Avenue 1) after Shangri-la Walk. Avoid right lane.,Roadwork
+10:16,1.2723297392419213,103.8331691439713,(11/11)9:23 Roadworks on AYE (towards MCE) after Keppel Rd Exit. Avoid lane 1.,Roadwork
+10:18,1.3687211823384962,103.83107987265717,(11/11)9:51 Roadworks on Ang Mo Kio Avenue 2 (towards Shangri-la Walk) after Ang Mo Kio Avenue 1. Avoid right lane.,Roadwork
+10:20,1.3281018342179227,103.94879683353216,(11/11)9:37 Roadworks on New Upper Changi Road (toward City) after Bedok Road.,Roadwork
+10:22,1.3624067341499158,103.95951268169986,(11/11)10:20 Roadworks on TPE (towards PIE) at Loyang Ave Exit.,Roadwork
+10:22,1.3331171939198576,103.95406179003356,(11/11)10:18 Roadworks on Simei Avenue (towards Upper Changi Road) after Upper Changi Road East. Avoid right lane.,Roadwork
+10:24,1.3026686386181567,103.82343134794115,(11/11)10:22 Roadworks on Grange Road (towards Rochalie Drive) after Orchard Boulevard. Avoid left lane.,Roadwork
+10:24,1.4068847589794398,103.80874966568136,(11/11)9:40 Roadworks on SLE (towards BKE) after Upper Thomson Rd Exit with congestion till Upper Thomson Rd Exit. Avoid lane 1.,Roadwork
+10:26,1.343054722301806,103.8679685068832,(11/11)10:24 Roadworks on Braddell Road (towards Lornie) after Upper Serangoon Road. Avoid left lane.,Roadwork
+10:30,1.426566811297833,103.7821373855718,(11/11)10:26 Roadworks on SLE (towards CTE) before Woodlands Ave 2 Exit. Avoid lane 3.,Roadwork
+10:30,1.3313195601593493,103.79540624856787,(11/11)10:26 Roadworks on Sixth Avenue (towards Bukit Timah Road) after Anamalai Avenue. Avoid left lane.,Roadwork
+10:30,1.3426003185714577,103.8702113066067,(11/11)10:00 Roadworks on Braddell Road (towards Lornie) after Upper Serangoon Road. Avoid right lane.,Roadwork
+10:32,1.3285190800830171,103.96564482218216,(11/11)10:07 Roadworks on Xilin Avenue (towards Changi South Avenue 3) after ECP. Avoid right lane.,Roadwork
+10:32,1.3285492816677722,103.96572110193651,(11/11)9:47 Roadworks on Xilin Avenue (towards ECP) after Changi South Avenue 3. Avoid left lane.,Roadwork
+10:34,1.3940081205986852,103.7539420404704,(11/11)10:32 Roadworks on Woodlands Road (towards City) after Sungei Kadut Ave. Avoid left lane.,Roadwork
+10:36,1.3065292740220864,103.81992904703232,(11/11)10:33 Roadworks on Napier Road (towards Middlesex Road) after Cluny Road. Avoid right lane.,Roadwork
+10:38,1.305606457615887,103.76876141446964,(11/11)10:35 Accident on AYE (towards MCE) after Clementi Ave 2 Exit. Avoid lane 1.,Accident
+10:38,1.296093225228489,103.85180197192038,(11/11)10:35 Roadworks on Bras Basah Road (towards Raffles Boulevard) after Prinsep Street. Avoid right lane.,Roadwork
+10:40,1.343746007168147,103.86683471287913,(11/11)10:37 Roadworks on Braddell Road (towards Lornie) after Woodleigh U/P.,Roadwork
+10:40,1.3067899752797036,103.87363541916716,(11/11)10:36 Roadworks on Nicoll Highway (towards Shenton Way) after Stadium Drive. Avoid right lane.,Roadwork
+10:40,1.3772209987980597,103.92855640401672,(11/11)10:24 Vehicle breakdown on TPE (towards PIE) after Pasir Ris Dr 12 Exit.,Vehicle breakdown
+10:40,1.3221467631059265,103.85677080937059,(11/11)9:41 Heavy Traffic on CTE (towards AYE) after PIE(Jurong) Exit.,Heavy Traffic
+10:44,1.2806798336620349,103.83923392608459,(11/11)10:42 Roadworks on Outram Road (towards Eu Tong Sen Street) after Second Hospital Avenue. Avoid right lane.,Roadwork
+10:44,1.3265624794825746,103.84498028884964,(11/11)10:42 Roadworks on Balestier Road (towards Irrawaddy Road) after Ah Hood Road.,Roadwork
+10:44,1.3887408275199102,103.75662896064371,(11/11)10:42 Roadworks on KJE (towards PIE) after Woodlands Rd Exit.,Roadwork
+10:44,1.3625120311396557,103.70753772085337,(11/11)10:41 Roadworks on PIE (towards Tuas) after KJE. Avoid lane 1.,Roadwork
+10:46,1.2945991417575209,103.86744918908548,(11/11)10:42 Roadworks on ECP (towards Changi Airport) before Fort Rd Exit. Avoid lane 5.,Roadwork
+10:48,1.3068371002050485,103.7713331949672,(11/11)10:44 Roadworks on Clementi Road (towards AYE) after AYE. Avoid right lane.,Roadwork
+10:50,1.393731016325508,103.75399112112132,(11/11)10:46 Roadworks on Woodlands Road (towards City) after Sungei Kadut Ave. Avoid left lane.,Roadwork
+10:50,1.3070564989647346,103.77133318958694,(11/11)10:46 Roadworks on Clementi Road (towards Clementi Avenue 1) after AYE. Avoid left lane.,Roadwork
+10:52,1.3665310810996312,103.94927947513,(11/11)10:50 Accident on TPE (towards PIE) after Pasir Ris Dr 8 Exit. Avoid lanes 2 and 3.,Accident
+10:52,1.3319067847406365,103.96580863829858,(11/11)10:01 Roadworks on Changi South Avenue 2 (towards Changi South Avenue 3) after Changi South Street 2. Avoid left lane.,Roadwork
+10:54,1.3076086146655923,103.75852017344369,(11/11)10:51 Roadworks on West Coast Highway (towards City) after Pandan Circus. Avoid right lane.,Roadwork
+10:54,1.307685400938854,103.7584111684377,(11/11)10:51 Roadworks on West Coast Highway (towards Tuas) after Pandan Crescent. Avoid left lane.,Roadwork
+10:54,1.2806798336620349,103.83923392608459,(11/11)10:50 Roadworks on Outram Road (towards Eu Tong Sen Street) after Second Hospital Avenue. Avoid right lane.,Roadwork
+10:56,1.3463820900566696,103.93841825910569,(11/11)10:52 Roadworks on Tampines Avenue 4 (towards Tampines Avenue 1) after Tampines Street 91. Avoid right lane.,Roadwork
+10:56,1.2943929287807676,103.8741252967484,(11/11)10:48 Vehicle breakdown on MCE (towards KPE) at ECP (Changi) Exit.,Vehicle breakdown
+10:56,1.3222604452752578,103.88631925900422,(11/11)10:47 Vehicle breakdown on PIE (towards Tuas) after Paya Lebar Rd.,Vehicle breakdown
+10:58,1.3051043794430048,103.85510655098163,(11/11)10:56 Roadworks on Jalan Besar (towards City) after Veerasamy Road.,Roadwork
+11:02,1.3079692206563356,103.9209260426841,(11/11)11:00 Roadworks on Marine Parade Road (towards Siglap Road) after Marine Vista. Avoid left lane.,Roadwork
+11:02,1.2955418452044016,103.85150760511108,(11/11)10:59 Roadworks on Victoria Street (towards Bras Basah Road) after Stamford Road. Avoid right lane.,Roadwork
+11:02,1.3075617114864353,103.91291507110904,(11/11)10:31 Roadworks on Telok Kurau Road (towards Marine Parade Road) after St. Patrick`s Road. Avoid left lane.,Roadwork
+11:04,1.3015401526704276,103.9113668511333,(11/11)11:01 Roadworks on ECP (towards City) at Marine Parade Exit.,Roadwork
+11:06,1.3665310810996312,103.94927947513,(11/11)10:50 Accident on TPE (towards PIE) after Pasir Ris Dr 8 Exit. Avoid lane 2.,Accident
+11:06,1.3441359989277766,103.86597058132419,(11/11)11:03 Roadworks on Braddell Road (towards Tampines) after Braddell U/P. Avoid left lane.,Roadwork
+11:06,1.289809313789264,103.83365032077728,(11/11)11:02 Roadworks on Havelock Road (towards Ganges Avenue) after Kim Seng Road.,Roadwork
+11:08,1.2723297392419213,103.8331691439713,(11/11)11:06 Roadworks on AYE (towards MCE) after Keppel Rd Exit. Avoid lane 1.,Roadwork
+11:08,1.3929704292537295,103.82844199912294,(11/11)11:06 Vehicle breakdown on SLE (towards BKE) after Lentor Ave Exit.,Vehicle breakdown
+11:08,1.3257714196466688,103.72925869046853,(11/11)9:59 Roadworks on AYE (towards MCE) after Yuan Ching Exit. Avoid lane 4.,Roadwork
+11:10,1.3452020279520678,103.73822675898475,(11/11)11:07 Roadworks on PIE (towards Tuas) at Jurong Town Hall Rd Exit.,Roadwork
+11:10,1.2723297392419213,103.8331691439713,(11/11)11:06 Roadworks on AYE (towards MCE) after Keppel Rd Exit with congestion till CTE Exit. Avoid lane 1.,Roadwork
+11:14,1.288066309179011,103.7941880284334,(11/11)10:33 Roadworks on AYE (towards Tuas) before Normanton Exit. Avoid lane 4.,Roadwork
+11:16,1.3065767369881942,103.79370998643931,(11/11)11:13 Roadworks on Holland Avenue (towards Commonwealth Avenue) after Commonwealth Avenue. Avoid left lane.,Roadwork
+11:16,1.3267452853510495,103.83707390816036,(11/11)11:13 Roadworks on Whitley Road (towards Whitley Road) after Bo Seng Avenue. Avoid left lane.,Roadwork
+11:16,1.3482637333274978,103.734881027751,(11/11)11:01 Roadworks on PIE (towards Changi Airport) before Jurong Town Hall Rd.,Roadwork
+11:18,1.3397004352198434,103.80580066091015,(11/11)11:15 Accident on PIE (towards Tuas) after Eng Neo Ave. Avoid lane 3.,Accident
+11:20,1.389602916250498,103.75484661444332,(11/11)11:17 Roadworks on Woodlands Road (towards City) after Sungei Kadut Ave. Avoid right lane.,Roadwork
+11:22,1.4118407497367096,103.76048234173136,(11/11)11:20 Roadworks on Mandai Road (towards Mandai Link) after Mandai Link. Avoid left lane.,Roadwork
+11:26,1.3236896802746554,103.89432118248945,(11/11)11:25 Roadworks on PIE (towards Changi Airport) after Paya Lebar Rd.,Roadwork
+11:28,1.2725217374233777,103.83955755993748,(11/11)11:26 Roadworks on AYE (towards Tuas) before Telok Blangah Rd Exit. Avoid lane 4.,Roadwork
+11:30,1.3887434840952435,103.75491736976713,(11/11)11:26 Roadworks on KJE (towards PIE) after Woodlands Rd Exit.,Roadwork
+11:32,1.3278321390318533,103.89391901001216,(11/11)11:29 Roadworks on Ubi Avenue 2 (towards Ubi Road 3) after Ubi Road 1. Avoid left lane.,Roadwork
+11:34,1.3360684293737737,103.81873308783095,(11/11)11:32 Vehicle breakdown on Lornie Road (towards Queensway) after MacRitchie viaduct. Avoid right lane.,Vehicle breakdown
+11:36,1.284675481622153,103.84437151521057,(11/11)11:33 Heavy Traffic on Upper Cross Street (towards New Bridge Road) after South Bridge Road.,Heavy Traffic
+11:36,1.3360684293737737,103.81873308783095,(11/11)11:32 Vehicle breakdown on Lornie Road (towards Queensway) after MacRitchie viaduct with congestion till MacRitchie viaduct. Avoid right lane.,Vehicle breakdown
+11:38,1.3189446644588845,103.80927692894812,(11/11)11:36 Obstacle on Farrer Road (towards Lornie) after Empress Road. Avoid left lane.,Obstacle
+11:40,1.406914964792437,103.8087551467293,(11/11)11:35 Roadworks on SLE (towards BKE) after Upper Thomson Rd Exit. Avoid lane 1.,Roadwork
+11:42,1.2969979760888128,103.78340167450598,(11/11)11:40 Vehicle breakdown on AYE (towards Tuas) at South Bouna Vista Entrance.,Vehicle breakdown
+11:42,1.3983367950443293,103.77379173450682,(11/11)11:40 Stationary Vehicle on BKE (towards Woodlands) before Mandai Rd Exit.,Unattended Vehicle
+11:42,1.2955179220280648,103.8768356624319,(11/11)10:42 Roadworks on ECP (towards Changi Airport) after Fort Rd Exit.,Roadwork
+11:44,1.3986193649140304,103.90444638413922,(11/11)11:42 Roadworks on Punggol Road near Punggol Field/Punggol Road Junction.,Roadwork
+11:44,1.2955179220280648,103.8768356624319,(11/11)11:41 Roadworks on ECP (towards Changi Airport) after Fort Rd Exit.,Roadwork
+11:44,1.2923262080006113,103.78809388032644,(11/11)10:33 Roadworks on AYE (towards Tuas) before Buona Vista exit. Avoid lane 4.,Roadwork
+11:46,1.4026983411337708,103.90622903327619,(11/11)11:42 Roadworks on Punggol Road (towards Punggol Central) after Punggol Central. Avoid right lane.,Roadwork
+11:50,1.292866552133542,103.78733621997064,(11/11)11:47 Roadworks on AYE (towards Tuas) before Buona Vista exit. Avoid lane 4.,Roadwork
+11:50,1.3362577043423098,103.818820345679,(11/11)11:47 Roadworks on Lornie Road (towards Queensway) after MacRitchie viaduct. Avoid left lane.,Roadwork
+11:52,1.3446722596773657,103.86007242534862,(11/11)11:50 Accident on CTE (towards AYE) at Upper Serangoon Rd Exit.,Accident
+11:52,1.3415831760954162,103.98182295628834,(11/11)11:49 Roadworks on ECP (towards Changi Airport) after PIE Exit. Avoid lane 4.,Roadwork
+11:54,1.3406380616342115,103.94597081576241,(11/11)11:52 Obstacle on PIE (towards Tuas) at Tampines Ave 5 Entrance.,Obstacle
+11:54,1.2723763217924715,103.83591094372677,(11/11)11:26 Roadworks on AYE (towards Tuas) before Telok Blangah Rd Exit. Avoid lane 1.,Roadwork
+11:58,1.4026983411337708,103.90622903327619,(11/11)11:42 Roadworks on Punggol Road (towards Punggol Central) after Punggol Central.,Roadwork
+12:00,1.3394056957051694,103.77820203826315,(11/11)11:58 Vehicle breakdown on PIE (towards Changi Airport) after Bukit Timah Rd exit.,Vehicle breakdown
+12:00,1.3137121410130554,103.86055011184385,(11/11)11:57 Roadworks on Lavender Street (towards Foch Road) after Bendemeer Road. Avoid right lane.,Roadwork
+12:00,1.313745069823019,103.86046835315416,(11/11)11:57 Roadworks on Lavender Street (towards Bendemeer Road) after Foch Road. Avoid right lane.,Roadwork
+12:00,1.3446557910822956,103.86008328877155,(11/11)11:53 Vehicle breakdown on CTE (towards AYE) at Upper Serangoon Rd Exit.,Vehicle breakdown
+12:00,1.3362577043423098,103.818820345679,(11/11)11:47 Roadworks on Lornie Road (towards Queensway) after MacRitchie viaduct with congestion till MacRitchie viaduct. Avoid left lane.,Roadwork
+12:14,1.4025197475437936,103.77342851188415,(11/11)12:11 Roadworks on BKE (towards PIE) after Mandai Rd Exit. Avoid lane 1.,Roadwork
+12:14,1.295723553037417,103.8828915685987,(11/11)12:11 Roadworks on ECP (towards Changi Airport) after Fort Rd Exit.,Roadwork
+12:16,1.3411361754836488,103.71131941249429,(11/11)12:13 Roadworks on Boon Lay Way (towards Tuas) after Corporation Road. Avoid left lane.,Roadwork
+12:16,1.3943974103606134,103.77399013206762,(11/11)12:11 Roadworks on BKE (towards PIE) after KJE Exit. Avoid lane 1.,Roadwork
+12:26,1.3447381074670406,103.85997978442578,(11/11)12:24 Accident on CTE (towards AYE) after PIE(Changi) Exit.,Accident
+12:39,1.3492670846988708,103.79533077176228,(11/11)11:25 Roadworks on PIE (towards Tuas) before BKE. Avoid lane 1.,Roadwork
+12:43,1.339132770646658,103.97486700458063,(11/11)12:39 Roadworks on PIE (towards Changi Airport) before ECP. Avoid lane 3.,Roadwork
+12:47,1.4080478556211469,103.80821005338184,(11/11)12:44 Roadworks on SLE (towards BKE) before Mandai Rd Exit. Avoid lane 1.,Roadwork
+12:51,1.3492670846988708,103.79533077176228,(11/11)12:48 Roadworks on PIE (towards Tuas) before BKE. Avoid lane 1.,Roadwork
+12:53,1.426566811297833,103.7821373855718,(11/11)12:48 Roadworks on SLE (towards CTE) before Woodlands Ave 2 Exit. Avoid lane 3.,Roadwork
+12:57,1.3983739976553708,103.89541490594276,(11/11)12:54 Roadworks on Sengkang East Road (towards Anchorvale Street) after TPE. Avoid left lane.,Roadwork
+12:59,1.3265624794825746,103.84498028884964,(11/11)10:42 Roadworks on Balestier Road (towards Irrawaddy Road) after Ah Hood Road. Avoid left lane.,Roadwork
+13:01,1.3997968214929528,103.8965085435096,(11/11)12:57 Roadworks on TPE (towards SLE) after Punggol Rd Exit. Avoid lane 3.,Roadwork
+13:01,1.4012295195221682,103.88572560108223,(11/11)12:56 Vehicle breakdown on TPE (towards SLE) after Punggol Rd Exit.,Vehicle breakdown
+13:03,1.3014546718879725,103.90931627063371,(11/11)11:01 Roadworks on ECP (towards Changi Airport) at Marine Parade Exit.,Roadwork
+13:09,1.2971793242871754,103.89775954573095,(11/11)13:06 Roadworks on ECP (towards City) after Still Rd Sth Exit. Avoid lane 4.,Roadwork
+13:11,1.322611365334978,103.74938476643194,(11/11)13:08 Accident on AYE (towards MCE) after Jurong Town Hall Exit.,Accident
+13:11,1.3433638197692823,103.89923689799996,(11/11)13:04 Vehicle breakdown on KPE (towards ECP) at Airport Road Exit.,Vehicle breakdown
+13:11,1.3124142364775897,103.84514717352751,(11/11)12:59 Heavy Traffic in CTE Tunnel (towards AYE) at Bukit Timah Rd Exit.,Heavy Traffic
+13:13,1.295698275705589,103.88937599432371,(11/11)13:10 Roadworks on ECP (towards Changi Airport) before Tg Katong Rd Exit.,Roadwork
+13:15,1.2957292438535948,103.88760112979969,(11/11)13:12 Roadworks on ECP (towards City) after Still Rd Sth Exit.,Roadwork
+13:21,1.343283499635669,103.87039911596592,(11/11)13:17 Roadworks on Braddell Slip Road near Braddell Road/Upper Serangoon Road Junction.,Roadwork
+13:23,1.3554973992265966,103.72124171021973,(11/11)13:19 Vehicle breakdown on PIE (towards Changi Airport) after Jurong West Ave 2.,Vehicle breakdown
+13:23,1.3467698914454092,103.6912359700054,(11/11)13:19 Roadworks on PIE (towards Changi Airport) after Pioneer Rd Nth. Avoid lane 4.,Roadwork
+13:23,1.331367563950981,103.79541468527552,(11/11)13:19 Roadworks on Sixth Avenue (towards Bukit Timah Road) after Anamalai Avenue. Avoid right lane.,Roadwork
+13:25,1.3790890544285828,103.85828464292112,(11/11)13:22 Vehicle breakdown on CTE (towards AYE) before AMK Ave 5 Exit.,Vehicle breakdown
+13:25,1.2956131918094416,103.89259207555858,(11/11)13:10 Roadworks on ECP (towards Changi Airport) before Tg Katong Rd Exit.,Roadwork
+13:33,1.2728327337717706,103.84403171936695,(11/11)13:29 Roadworks on Anson Road near Anson Road/Bernam Street Junction.,Roadwork
+13:41,1.3555330392902374,103.72102910849657,(11/11)13:19 Vehicle breakdown on PIE (towards Changi Airport) at Jurong West Ave 2 Entrance.,Vehicle breakdown
+13:47,1.3755982637259478,103.932103799987,(11/11)13:42 Obstacle on TPE (towards SLE) before Tampines Ave 10 Exit. Avoid lane 1.,Obstacle
+13:47,1.3526035655487672,103.85715882861172,(11/11)13:40 Vehicle breakdown on CTE (towards SLE) after AMK Ave 1 Exit.,Vehicle breakdown
+13:51,1.2725282376160751,103.84314864651606,(11/11)13:47 Roadworks on Keppel Road (towards Tuas) after Shenton Way. Avoid left lane.,Roadwork
+13:55,1.3753042064754504,103.93284037354637,(11/11)13:42 Obstacle on TPE (towards SLE) before Tampines Ave 10 Exit. Avoid lane 1.,Obstacle
+13:57,1.3233235937790702,103.85778861168221,(11/11)13:53 Vehicle breakdown on CTE (towards AYE) after PIE(Jurong) Exit.,Vehicle breakdown
+14:03,1.3445712965939745,103.72605336711273,(11/11)14:00 Roadworks on Boon Lay Way (towards Tuas) after Jurong Town Hall Road. Avoid right lane.,Roadwork
+14:03,1.3952810314697377,103.89429406261516,(11/11)13:59 Roadworks on Sengkang East Road (towards Compassvale Street) after Sengkang East Way. Avoid left lane.,Roadwork
+14:05,1.3636764166732416,103.85932348849148,(11/11)13:57 Vehicle breakdown on CTE (towards SLE) before AMK Ave 3 Exit.,Vehicle breakdown
+14:07,1.2972424557208502,103.8978466970586,(11/11)13:06 Roadworks on ECP (towards Changi Airport) after Tg Katong Rd Exit. Avoid lane 4.,Roadwork
+14:09,1.3439041807190564,103.86027954421957,(11/11)14:05 Accident on CTE (towards AYE) after PIE(Changi) Exit. Avoid lane 4.,Accident
+14:09,1.2972361313188467,103.89795947308858,(11/11)14:05 Roadworks on ECP (towards City) after Still Rd Sth Exit. Avoid lane 4.,Roadwork
+14:17,1.3943974103606134,103.77399013206762,(11/11)14:14 Roadworks on BKE (towards PIE) after KJE Exit. Avoid lane 1.,Roadwork
+14:17,1.3753042064754504,103.93284037354637,(11/11)13:42 Obstacle on TPE (towards SLE) before Tampines Ave 10 Exit. Avoid lanes 1 and 2.,Obstacle
+14:17,1.2943555296903673,103.86634282796776,(11/11)13:12 Roadworks on ECP (towards City) after KPE Exit. Avoid lane 6.,Roadwork
+14:19,1.2943088669636909,103.86615205773045,(11/11)14:15 Roadworks on ECP (towards City) after KPE Exit. Avoid lane 5.,Roadwork
+14:27,1.2921884455749455,103.86191126207011,(11/11)14:15 Roadworks on ECP (towards City) after Rochor Rd Exit. Avoid lane 4.,Roadwork
+14:37,1.3252122489244993,103.85970334976344,(11/11)14:31 Vehicle breakdown on CTE (towards SLE) after Jalan Bahagia Exit.,Vehicle breakdown
+14:43,1.3823095341055085,103.73659024859556,(11/11)14:39 Roadworks on KJE (towards PIE) after Choa Chu Kang Dr Exit. Avoid lane 5.,Roadwork
+14:43,1.2840522930826412,103.80181363268616,(11/11)14:37 Vehicle breakdown on AYE (towards Tuas) after Alexandra Rd Entrance.,Vehicle breakdown
+14:43,1.2871738892399684,103.79585583168208,(11/11)14:35 Heavy Traffic on AYE (towards Tuas) between Lower Delta Rd Exit and Normanton Exit.,Heavy Traffic
+14:45,1.406884759151918,103.80876593904249,(11/11)14:42 Roadworks on SLE (towards BKE) after Upper Thomson Rd Exit.,Roadwork
+14:45,1.3492670846988708,103.79533077176228,(11/11)12:48 Roadworks on PIE (towards Tuas) before BKE with congestion till Stevens Rd Exit. Avoid lane 1.,Roadwork
+14:55,1.3492670846988708,103.79533077176228,(11/11)12:48 Roadworks on PIE (towards Tuas) before BKE with congestion till Adam Rd Exit. Avoid lane 1.,Roadwork
+14:59,1.3199869006538325,103.9685108150945,(11/11)14:54 Vehicle breakdown on ECP (towards Changi Airport) after Bayshore.,Vehicle breakdown
+14:59,1.3492670846988708,103.79533077176228,(11/11)12:48 Heavy Traffic on PIE (towards Tuas) before BKE,Heavy Traffic
+15:07,1.327832447694374,103.8054653622768,(11/11)15:04 Roadworks on Dunearn Road (towards City) after Eng Neo Avenue. Avoid left lane.,Roadwork
+15:07,1.323367464989586,103.85773956008907,(11/11)15:01 Vehicle breakdown on CTE (towards SLE) after Moulmein Rd Exit.,Vehicle breakdown
+15:07,1.3305059531801204,103.82010199862587,(11/11)15:01 Vehicle breakdown on PIE (towards Changi Airport) after Lornie Rd. Avoid lane 1.,Vehicle breakdown
+15:07,1.3947802208011166,103.90633714858377,(11/11)15:00 Vehicle breakdown on TPE (towards PIE) after Punggol Rd Exit.,Vehicle breakdown
+15:11,1.3304785419199323,103.82010747097729,(11/11)15:07 Accident on PIE (towards Tuas) after Stevens Rd Exit. Avoid lane 1.,Accident
+15:15,1.3338630080116147,103.81335183107142,(11/11)15:13 Vehicle breakdown on PIE (towards Changi Airport) before Lornie Rd. Avoid lane 1.,Vehicle breakdown
+15:15,1.2954556667184467,103.88447405047606,(11/11)14:57 Roadworks on MCE (towards AYE) at Fort Rd Entrance.,Roadwork
+15:15,1.3847664283697458,103.77517873849536,(11/11)14:14 Roadworks on BKE (towards PIE) after KJE Exit. Avoid lane 1.,Roadwork
+15:19,1.3089499065083283,103.86474817582949,(11/11)15:16 Roadworks on Kallang Road (toward Changi) after Lavender Street. Avoid left lane.,Roadwork
+15:19,1.3126822086304195,103.84517853416253,(11/11)15:15 Heavy Traffic in CTE Tunnel (towards AYE) at Bukit Timah Rd Exit.,Heavy Traffic
+15:19,1.333528402144584,103.81448563295116,(11/11)15:13 Vehicle breakdown on PIE (towards Changi Airport) after Lornie Rd. Avoid lane 1.,Vehicle breakdown
+15:21,1.3304785419199323,103.82010747097729,(11/11)15:05 Accident on PIE (towards Tuas) after Stevens Rd Exit. Avoid lane 1.,Accident
+15:21,1.381001047466228,103.73527112413186,(11/11)14:39 Roadworks on KJE (towards PIE) at Sungei Tengah Rd Exit.,Roadwork
+15:23,1.3152794575672315,103.84619013446556,(11/11)15:20 Heavy Traffic in CTE Tunnel (towards AYE) between PIE(Jurong) Exit and Bukit Timah Rd Exit.,Heavy Traffic
+15:25,1.3016439136061018,103.91038467300824,(11/11)15:20 Roadworks on ECP (towards Changi Airport) at Still Rd South Exit.,Roadwork
+15:27,1.3304774841856108,103.82017665080087,(11/11)15:05 Accident on PIE (towards Changi Airport) after Lornie Rd. Avoid lane 1.,Accident
+15:33,1.3304774841856108,103.82017665080087,(11/11)15:05 Accident on PIE (towards Changi Airport) after Lornie Rd with congestion till Eng Neo Ave. Avoid lane 1.,Accident
+15:35,1.3418365753888424,103.78038395626177,(11/11)15:32 Vehicle breakdown on PIE (towards Tuas) after Clementi Rd Exit.,Vehicle breakdown
+15:35,1.3116228765543618,103.7631136046477,(11/11)15:30 Heavy Traffic on AYE (towards Tuas) between Buona Vista exit and Clementi Ave 6 Exit.,Heavy Traffic
+15:35,1.321403391615624,103.85600613416507,(11/11)15:28 Heavy Traffic on CTE (towards SLE) between Bukit Timah Rd Entrance and Moulmein Rd Exit.,Heavy Traffic
+15:35,1.3076821197893234,103.93002715932244,(11/11)15:26 Vehicle breakdown on ECP (towards City) before Still Rd Sth Exit.,Vehicle breakdown
+15:37,1.300894290734336,103.77722482937021,(11/11)15:34 Heavy Traffic on AYE (towards MCE) between Clementi Ave 6 Exit and Clementi Rd Entrance.,Heavy Traffic
+15:37,1.396491536752943,103.84969592490972,(11/11)15:26 Vehicle breakdown on SLE (towards CTE) before TPE Exit.,Vehicle breakdown
+15:39,1.3013139897769241,103.77649439283532,(11/11)15:37 Accident on AYE (towards MCE) after Clementi Rd Entrance. Avoid lanes 3 and 4.,Accident
+15:43,1.2735624121171298,103.85057177762306,(11/11)15:40 Roadworks on MCE (towards ECP) before Maxwell Rd Entrance.,Roadwork
+15:45,1.2725317650119072,103.84026641453863,(11/11)15:44 Vehicle breakdown on AYE (towards Tuas) after Keppel Rd exit.,Vehicle breakdown
+15:45,1.2955410126076508,103.8926720352192,(11/11)15:43 Vehicle breakdown on ECP (towards City) at East Coast Park Service Rd Entrance.,Vehicle breakdown
+15:45,1.436293706099094,103.7685118688039,(11/11)15:43 Accident on BKE (towards Woodlands) before Woodlands Checkpoint. Avoid lane 4.,Accident
+15:45,1.3017802683880042,103.77558953840281,(11/11)15:42 Accident on AYE (towards Tuas) after Clementi Rd Exit. Avoid lane 1.,Accident
+15:45,1.3304774841856108,103.82017665080087,(11/11)15:05 Heavy Traffic on PIE (towards Changi Airport) after Lornie Rd,Heavy Traffic
+15:47,1.2955410126076508,103.8926720352192,(11/11)15:44 Vehicle breakdown on ECP (towards City) at East Coast Park Service Rd Entrance.,Vehicle breakdown
+15:49,1.3849227830031818,103.775146044506,(11/11)15:47 Accident on BKE (towards PIE) after KJE Exit. Avoid lanes 1 and 2.,Accident
+15:49,1.301324939155316,103.77638539907728,(11/11)15:30 Heavy Traffic on AYE (towards Tuas) between Normanton Exit and Clementi Rd Exit.,Heavy Traffic
+15:51,1.3343932157915142,103.811924648276,(11/11)15:49 Accident on PIE (towards Changi Airport) before Lornie Rd. Avoid lane 1.,Accident
+15:53,1.3282551314655948,103.74459502253677,(11/11)15:50 Accident on Jurong Town Hall Road near Jurong East Street 11/Jurong Town Hall Road Junction.,Accident
+15:53,1.3849227830031818,103.775146044506,(11/11)15:47 Accident on BKE (towards PIE) after KJE Exit. Avoid lane 2.,Accident
+15:55,1.3282551314655948,103.74459502253677,(11/11)15:50 Accident on Jurong Town Hall Road near Jurong East Street 11/Jurong Town Hall Road Junction with congestion.,Accident
+15:57,1.28904989652195,103.8414617882213,(11/11)15:54 Vehicle breakdown in CTE Tunnel (towards SLE) at Clemenceau Ave Exit.,Vehicle breakdown
+15:57,1.3798041773280545,103.77599108890881,(11/11)14:14 Roadworks on BKE (towards PIE) before Bukit Panjang Rd Exit. Avoid lane 1.,Roadwork
+15:59,1.345089788174714,103.73987418324587,(11/11)15:56 Accident on PIE (towards Tuas) at Jurong Town Hall Rd Exit.,Accident
+16:03,1.3013139897769241,103.77649439283532,(11/11)15:37 Accident on AYE (towards MCE) after Clementi Rd Entrance with congestion till Jurong Town Hall Exit. Avoid lanes 3 and 4.,Accident
+16:05,1.4197886492524516,103.79960621420759,(11/11)16:00 Vehicle breakdown on SLE (towards BKE) after Mandai Rd Exit.,Vehicle breakdown
+16:07,1.3849227830031818,103.775146044506,(11/11)15:47 Accident on BKE (towards PIE) after KJE Exit.,Accident
+16:19,1.2847826497794723,103.84415848090508,(11/11)16:17 Roadworks on Upper Cross Street near New Bridge Road/Upper Cross Street Junction.,Roadwork
+16:19,1.3126314827184034,103.84519875128716,(11/11)16:16 Heavy Traffic in CTE Tunnel (towards AYE) at Bukit Timah Rd Exit.,Heavy Traffic
+16:25,1.3905632091141698,103.7716176325395,(11/11)16:23 Heavy Traffic on KJE (towards BKE) at BKE(Woodlands) Exit.,Heavy Traffic
+16:31,1.3338961857772664,103.81405898625546,(11/11)16:29 Heavy Traffic on PIE (towards Changi Airport) at Lornie Rd Exit.,Heavy Traffic
+16:31,1.301324939155316,103.77638539907728,(11/11)15:30 Heavy Traffic on AYE (towards Tuas) between Buona Vista exit and Clementi Rd Exit.,Heavy Traffic
+16:33,1.3398330976142545,103.9811360213764,(11/11)16:30 Accident on ECP (towards City) before PIE(Tuas) Exit. Avoid lane 3.,Accident
+16:39,1.3398330976142545,103.9811360213764,(11/11)16:30 Accident on ECP (towards City) before PIE(Tuas) Exit. Avoid lanes 3 and 4.,Accident
+16:41,1.3267092797686244,103.82805170156536,(11/11)16:37 Heavy Traffic on PIE (towards Changi Airport) between Eng Neo Ave and Stevens Rd Exit.,Heavy Traffic
+16:43,1.3457192461814806,103.69010771072287,(11/11)16:40 Vehicle breakdown on PIE (towards Tuas) before Pioneer Rd North. Avoid lane 4.,Vehicle breakdown
+16:45,1.3349170350805653,103.81117210187571,(11/11)16:43 Vehicle breakdown on PIE (towards Changi Airport) before Lornie Rd.,Vehicle breakdown
+16:47,1.3013139897769241,103.77649439283532,(11/11)15:37 Accident on AYE (towards MCE) after Clementi Rd Entrance with congestion till Yuan Ching Exit. Avoid lanes 3 and 4.,Accident
+16:51,1.436701302415691,103.76850583672895,(11/11)16:49 Heavy Traffic on BKE (towards Woodlands) before Woodlands Checkpoint.,Heavy Traffic
+16:51,1.3125953897184068,103.84515786711624,(11/11)16:48 Heavy Traffic in CTE Tunnel (towards AYE) at Bukit Timah Rd Exit.,Heavy Traffic
+16:51,1.3398330976142545,103.9811360213764,(11/11)16:30 Accident on ECP (towards City) before PIE(Tuas) Exit with congestion till PIE(Tuas) Exit. Avoid lanes 3 and 4.,Accident
+17:03,1.3542657093097152,103.9005297935488,(11/11)16:58 Vehicle breakdown on KPE (towards TPE) after Airport Rd Entrance.,Vehicle breakdown
+17:05,1.3951258695395652,103.90572117424671,(11/11)17:03 Heavy Traffic on TPE (towards SLE) at Punggol Rd Exit.,Heavy Traffic
+17:07,1.390590619944599,103.77160127771471,(11/11)17:05 Heavy Traffic on KJE (towards BKE) at BKE(Woodlands) Exit.,Heavy Traffic
+17:09,1.38357761072679,103.73807284474864,(11/11)17:07 Vehicle breakdown on KJE (towards PIE) after Choa Chu Kang Dr Exit. Avoid lane 2.,Vehicle breakdown
+17:09,1.3013139897769241,103.77649439283532,(11/11)15:37 Accident on AYE (towards MCE) after Clementi Rd Entrance with congestion till Jalan Boon Lay Exit. Avoid lanes 3 and 4.,Accident
+17:13,1.3398330976142545,103.9811360213764,(11/11)16:30 Accident on ECP (towards City) before PIE(Tuas) Exit with congestion till PIE(Tuas) Exit. Avoid lane 4.,Accident
+17:17,1.3176093266195368,103.75740827042792,(11/11)17:15 Accident on AYE (towards Tuas ) after Clementi Ave 6 Exit. Avoid lane 3.,Accident
+17:17,1.3292030424952257,103.86537724781313,(11/11)17:12 Heavy Traffic on PIE (towards Changi Airport) between Toa Payoh Lor 1 and Kallang Way.,Heavy Traffic
+17:19,1.3176093266195368,103.75740827042792,(11/11)17:15 Accident on AYE (towards Tuas ) after Clementi Ave 6 Exit with congestion till Clementi Ave 2 Exit. Avoid lane 3.,Accident
+17:19,1.3398330976142545,103.9811360213764,(11/11)16:30 Accident on ECP (towards City) before PIE(Tuas) Exit with congestion till PIE(Tuas) Exit.,Accident
+17:25,1.3179332032129705,103.86020216664585,(11/11)17:23 Vehicle breakdown on Serangoon Road (towards Sengkang) after Balestier Road.,Vehicle breakdown
+17:29,1.3367692679988874,103.75738692047291,(11/11)17:27 Heavy Traffic on PIE (towards Changi Airport) between Toh Guan Rd Exit and Bukit Batok East Ave 3.,Heavy Traffic
+17:29,1.3313228132438195,103.86291728018247,(11/11)17:26 Vehicle breakdown on CTE (towards SLE) at PIE Exit.,Vehicle breakdown
+17:35,1.4214418885193565,103.7965986821276,(11/11)17:32 Heavy Traffic on SLE (towards BKE) at Woodlands Ave 12 Exit.,Heavy Traffic
+17:37,1.3018269343410314,103.77562225337198,(11/11)17:34 Vehicle breakdown on AYE (towards MCE) after Clementi Rd Exit.,Vehicle breakdown
+17:37,1.3176093266195368,103.75740827042792,(11/11)17:15 Accident on AYE (towards Tuas ) after Clementi Ave 6 Exit with congestion till Clementi Ave 2 Exit.,Accident
+17:39,1.3475150549507804,103.6373165073018,(11/11)17:37 Heavy Traffic on AYE (towards Tuas) after Tuas West Dr Exit.,Heavy Traffic
+17:41,1.3262031948907955,103.66044138506506,(11/11)17:40 Heavy Traffic on AYE (towards MCE) at PIE(KJE) Exit.,Heavy Traffic
+17:44,1.3978925979010068,103.90180931677229,(11/11)17:40 Vehicle breakdown on TPE (towards PIE) before Punggol Rd Exit.,Vehicle breakdown
+17:46,1.3931864730364365,103.82296524874435,(11/11)17:42 Obstacle on SLE (towards BKE) before Upper Thomson Rd Exit. Avoid lane 2.,Obstacle
+17:46,1.3978925979010068,103.90180931677229,(11/11)17:41 Vehicle breakdown on TPE (towards PIE) before Punggol Rd Exit.,Vehicle breakdown
+17:50,1.4207067292132756,103.79820134606808,(11/11)17:48 Vehicle breakdown on SLE (towards BKE) before Woodlands Ave 12 Exit.,Vehicle breakdown
+17:50,1.2846338203061531,103.83732030634759,(11/11)17:47 Heavy Traffic in CTE Tunnel (towards AYE) at Outram Rd Exit.,Heavy Traffic
+17:52,1.383927878453612,103.73827016669829,(11/11)17:49 Heavy Traffic on KJE (towards BKE) at Choa Chu Kang Way Exit.,Heavy Traffic
+17:54,1.3013139897769241,103.77649439283532,(11/11)15:37 Accident on AYE (towards MCE) after Clementi Rd Entrance with congestion till Pioneer Rd Exit. Avoid lanes 3 and 4.,Accident
+17:56,1.3117455692385016,103.9461337820665,(11/11)17:53 Vehicle breakdown on ECP (towards City) after East Coast Park Carpark F3 Exit. Avoid lane 1.,Vehicle breakdown
+17:56,1.3176093266195368,103.75740827042792,(11/11)17:15 Heavy Traffic on AYE (towards Tuas ) after Clementi Ave 6 Exit,Heavy Traffic
+17:58,1.2834945800259718,103.81120705728655,(11/11)17:55 Vehicle breakdown on AYE (towards MCE) after Alexandra.,Vehicle breakdown
+18:00,1.3213780621599425,103.87880825960673,(11/11)17:56 Accident on KPE (towards TPE) at Sims Avenue Entrance.,Accident
+18:04,1.375072934640097,103.72818585648326,(11/11)18:01 Vehicle breakdown on KJE (towards PIE) after Sungei Tengah Exit.,Vehicle breakdown
+18:04,1.4209563420935976,103.79757987773635,(11/11)18:00 Heavy Traffic on SLE (towards BKE) at Woodlands Ave 12 Exit.,Heavy Traffic
+18:06,1.3292030424952257,103.86537724781313,(11/11)17:12 Heavy Traffic on PIE (towards Changi Airport) between Eng Neo Ave and Kallang Way.,Heavy Traffic
+18:08,1.3719126521628164,103.72445747006519,(11/11)18:04 Vehicle breakdown on KJE (towards PIE) before PIE(Changi) Exit.,Vehicle breakdown
+18:10,1.3235351086334008,103.72058101985759,(11/11)18:06 Heavy Traffic on AYE (towards Tuas) at Jurong Port Rd Exit.,Heavy Traffic
+18:10,1.32552350390369,103.9031919185452,(11/11)17:12 Heavy Traffic on PIE (towards Changi Airport) between Eng Neo Ave and Jalan Eunos.,Heavy Traffic
+18:12,1.417708577821284,103.80227341634442,(11/11)18:08 Heavy Traffic on SLE (towards CTE) between Woodlands Ave 2 Exit and Mandai Ave Exit.,Heavy Traffic
+18:12,1.2892024694891768,103.84218600392893,(11/11)18:08 Heavy Traffic in CTE Tunnel (towards AYE) at Havelock Road Exit.,Heavy Traffic
+18:14,1.3955318689688103,103.90501797645894,(11/11)18:10 Heavy Traffic on TPE (towards SLE) at Punggol Rd Exit.,Heavy Traffic
+18:16,1.3321343548204785,103.81618463412116,(11/11)18:12 Heavy Traffic on Adam Road (towards Braddell) between Empress Road and Farrer F/O.,Heavy Traffic
+18:18,1.326518202732112,103.87043336940685,(11/11)18:15 Heavy Traffic on PIE (towards Tuas) between Bedok North Avenue 3 exit and KPE Exit.,Heavy Traffic
+18:20,1.28471675054068,103.83733792683849,(11/11)18:16 Heavy Traffic in CTE Tunnel (towards AYE) at Outram Rd Exit.,Heavy Traffic
+18:28,1.3931179422388091,103.82340679284071,(11/11)18:25 Roadworks on SLE (towards BKE) before Upper Thomson Rd Exit. Avoid lane 2.,Roadwork
+18:32,1.3106217993858231,103.84411149781481,(11/11)18:28 Heavy Traffic on Bukit Timah Road (towards City) between Chancery Lane and Newton Circus.,Heavy Traffic
+18:34,1.2956673297492811,103.89012097568347,(11/11)18:32 Heavy Traffic on ECP (towards Changi Airport) between Fort Rd Exit and Tg Katong Rd Exit.,Heavy Traffic
+18:38,1.3013139897769241,103.77649439283532,(11/11)15:37 Heavy Traffic on AYE (towards MCE) after Clementi Rd Entrance,Heavy Traffic
+18:42,1.4329460483704597,103.76870363308636,(11/11)18:39 Vehicle breakdown on BKE (towards PIE) before Woodlands Ave 3 Entrance.,Vehicle breakdown
+18:42,1.3068099143564085,103.8407398620747,(11/11)18:39 Heavy Traffic in CTE Tunnel (towards AYE) at Cairnhill Circle Exit.,Heavy Traffic
+18:42,1.3024960908253798,103.84187605174972,(11/11)18:38 Heavy Traffic in CTE Tunnel (towards AYE) at Orchard Road Exit.,Heavy Traffic
+18:50,1.310205211329159,103.87563911080845,(11/11)18:45 Heavy Traffic on KPE (towards ECP) at Nicoll Highway Exit.,Heavy Traffic
+18:54,1.2967833518079577,103.85099221820423,(11/11)18:51 Heavy Traffic on Bras Basah Road (towards Raffles Boulevard) after Prinsep Street.,Heavy Traffic
+18:54,1.4190165421184566,103.77078632962238,(11/11)18:50 Heavy Traffic on BKE (towards Woodlands) at SLE Exit.,Heavy Traffic
+18:58,1.3262433919507628,103.73992835014988,(11/11)18:55 Vehicle breakdown on AYE (towards MCE) after Yuan Ching. Avoid lane 4.,Vehicle breakdown
+19:00,1.3262433919507628,103.73992835014988,(11/11)18:56 Vehicle breakdown on AYE (towards MCE) after Yuan Ching. Avoid lane 4.,Vehicle breakdown
+19:04,1.3782364284285415,103.73121265660936,(11/11)19:01 Vehicle breakdown on KJE (towards BKE) at Sungei Tengah Rd Exit.,Vehicle breakdown
+19:06,1.343322185080145,103.85594451358612,(11/11)19:01 Heavy Traffic on Braddell Road (towards Bartley) between Bishan Road and Toa Payoh.,Heavy Traffic
+19:06,1.3931179422388091,103.82340679284071,(11/11)18:25 Roadworks on SLE (towards BKE) before Upper Thomson Rd Exit with congestion till Lentor Ave Exit. Avoid lane 2.,Roadwork
+19:08,1.3043446175363431,103.84021402542218,(11/11)19:05 Heavy Traffic in CTE Tunnel (towards AYE) before Orchard Rd Exit.,Heavy Traffic
+19:10,1.3043446175363431,103.84021402542218,(11/11)19:05 Heavy Traffic in CTE Tunnel (towards AYE) between Bukit Timah Rd Exit and Orchard Rd Exit.,Heavy Traffic
+19:10,1.3091409263373301,103.93512393493441,(11/11)19:05 Heavy Traffic on ECP (towards City) between East Coast Park Carpark H Exit and East Coast Park Carpark F3 Exit.,Heavy Traffic
+19:18,1.4012343042331503,103.87643507326807,(11/11)19:15 Vehicle breakdown on TPE (towards PIE) before Seletar Link Exit.,Vehicle breakdown
+19:18,1.3043446175363431,103.84021402542218,(11/11)19:05 Heavy Traffic in CTE Tunnel (towards AYE) between PIE(Changi) Exit and Orchard Rd Exit.,Heavy Traffic
+19:20,1.3020173313894619,103.83739221713269,(11/11)19:16 Heavy Traffic on Orchard Road (towards Bras Basah Rd) after Bideford Road.,Heavy Traffic
+19:24,1.3054953394802598,103.87023952079142,(11/11)19:21 Vehicle breakdown on Nicoll Highway (towards Guillemard) after Java Road. Avoid left lane.,Vehicle breakdown
+19:32,1.3389317355154888,103.80670433218448,(11/11)19:29 Accident on PIE (towards Changi Airport) after Eng Neo Ave.,Accident
+19:40,1.3211784567518536,103.85614792370876,(11/11)19:36 Accident on CTE (towards AYE) at Balestier Rd Exit.,Accident
+19:42,1.2956751072386188,103.89012294366593,(11/11)19:39 Vehicle breakdown on ECP (towards Changi Airport) before Tg Katong Rd Exit.,Vehicle breakdown
+19:42,1.3211784567518536,103.85614792370876,(11/11)19:37 Accident on CTE (towards AYE) at Balestier Rd Exit.,Accident
+19:54,1.347294618911705,103.92241679149087,(11/11)19:51 Vehicle breakdown on Bartley Viaduct (towards Tampines Avenue 10) after Tampines Avenue 10. Avoid right lane.,Vehicle breakdown
+19:56,1.3056701600248757,103.83749080257653,(11/11)19:52 Vehicle breakdown on Cairnhill Road near Bideford Road/Cairnhill Road Junction.,Vehicle breakdown
+19:58,1.2952801885650354,103.87649298998487,(11/11)19:55 Vehicle breakdown on KPE (towards MCE) at ECP(City) Exit.,Vehicle breakdown
+20:00,1.3217243289295386,103.85639323357223,(11/11)19:55 Heavy Traffic on CTE (towards AYE) between PIE(Changi) Exit and PIE(Jurong) Exit.,Heavy Traffic
+20:02,1.3201508240964364,103.87613881924379,(11/11)19:59 Vehicle breakdown on PIE (towards Changi Airport) after Kallang.,Vehicle breakdown
+20:04,1.289501641763112,103.8423748963158,(11/11)20:02 Heavy Traffic in CTE Tunnel (towards AYE) at Havelock Road Exit.,Heavy Traffic
+20:08,1.280870237528859,103.85113578486823,(11/11)20:05 Heavy Traffic on Raffles Quay (towards Shenton Way) after Marina Boulevard.,Heavy Traffic
+20:12,1.289473326754922,103.842189518161,(11/11)20:10 Vehicle breakdown in CTE Tunnel (towards AYE) after Havelock Exit.,Vehicle breakdown
+20:12,1.2839645419913748,103.8494951632658,(11/11)20:08 Heavy Traffic on Church Street near Church Street/Phillip Street Junction.,Heavy Traffic
+20:14,1.3526364840330856,103.85719701789938,(11/11)20:11 Vehicle breakdown on CTE (towards AYE) before Braddell Rd/Lor Chuan Exit.,Vehicle breakdown
+21:04,1.4256311676120461,103.76194453771927,(11/11)20:49 Roadworks on Woodlands Road (towards City) after BKE. Avoid left lane.,Roadwork
+21:06,1.3048581250640006,103.83220616935364,(11/11)21:02 Roadworks on Orchard Road (towards Bras Basah Rd) after Scotts Road. Avoid right lane.,Roadwork
+21:08,1.4101986223926355,103.7739998072562,(11/11)21:06 Roadworks on Mandai Road (towards BKE) after Jalan Kwok Min. Avoid right lane.,Roadwork
+21:26,1.3435919427459857,103.80209835020308,(11/11)21:20 Vehicle breakdown on PIE (towards Changi Airport) before Eng Neo Ave.,Vehicle breakdown
+21:30,1.3133031792150098,103.87486095607314,(11/11)21:27 Roadworks on Sims Way near Sims Avenue/Sims Way Junction.,Roadwork
+21:32,1.3214253584305384,103.85602796919193,(11/11)21:28 Heavy Traffic on CTE (towards SLE) between Bukit Timah Rd Entrance and Moulmein Rd Exit.,Heavy Traffic
+21:38,1.296505811443785,103.85097164861489,(11/11)21:35 Roadworks on Stamford Road (towards Queen Street) after Fort Canning Link. Avoid left lane.,Roadwork
+21:40,1.2944340171108966,103.86652486478864,(11/11)21:39 Roadworks on ECP (towards Changi Airport) before Fort Rd Exit. Avoid lane 1.,Roadwork
+21:40,1.277374510455699,103.84898555264057,(11/11)21:38 Roadworks on Shenton Way (towards Shenton Way) after Central Boulevard. Avoid right lane.,Roadwork
+21:42,1.3269834755288608,103.7571700395662,(11/11)20:25 Roadworks on Toh Tuck Avenue near Boon Lay Way/Commonwealth Avenue West Junction.,Roadwork
+21:42,1.3446480425350575,103.89111983969082,(11/11)20:20 Roadworks on Hougang Avenue 3 (towards Bartley Road East) after Defu Avenue 1. Avoid left lane.,Roadwork
+22:11,1.3247321878792029,103.89950246388157,(11/11)22:07 Vehicle breakdown on PIE (towards Changi Airport) after Paya Lebar. Avoid lane 1.,Vehicle breakdown
+22:27,1.275726718961826,103.82822863060001,(11/11)22:24 Accident on AYE (towards Tuas) before Lower Delta Rd Exit.,Accident
+22:31,1.3665254147534416,103.90677391647591,(11/11)22:28 Vehicle breakdown on KPE (towards ECP) after Tampines Rd Exit.,Vehicle breakdown
+22:33,1.2824312546267904,103.85212805204252,(11/11)22:29 Roadworks on Collyer Quay (towards Shenton Way) after Fullerton Road. Avoid left lane.,Roadwork
+22:33,1.34157506259115,103.94597598936537,(11/11)22:29 Roadworks on PIE (towards Changi Airport) at Tampines Ave 5 Exit.,Roadwork
+22:33,1.2838722646892111,103.85278283713093,(11/11)22:29 Roadworks on Collyer Quay (towards Guillemard) after Marina Boulevard. Avoid left lane.,Roadwork
+22:35,1.3060670657409583,103.83850247747644,(11/11)22:31 Roadworks on Cairnhill Circle near Cairnhill Circle/Cairnhill Road Junction.,Roadwork
+22:37,1.3316908152118343,103.96628735832942,(11/11)22:35 Roadworks on Changi South Avenue 2 near Changi South Avenue 2/Changi South Avenue 3 Junction.,Roadwork
+22:37,1.3264515402281738,103.83080522340549,(11/11)22:33 Roadworks on PIE (towards Changi Airport) after Stevens Rd Exit.,Roadwork
+22:41,1.3032375747413454,103.8234941540954,(11/11)22:37 Roadworks on Grange Road (towards Orchard Boulevard) after Cuscaden Road. Avoid right lane.,Roadwork
+22:43,1.3644793892966978,103.85962883959371,(11/11)22:40 Heavy Traffic on CTE (towards SLE) between PIE(Changi) Exit and AMK Ave 3 Exit.,Heavy Traffic
+22:51,1.2938783080598049,103.86399024827627,(11/11)22:48 Roadworks on ECP (towards City) after Rochor Rd Exit. Avoid lane 4.,Roadwork
+22:53,1.2768451061853272,103.84866945315315,(11/11)22:49 Roadworks on Shenton Way (towards Shenton Way) after Central Boulevard. Avoid right lane.,Roadwork
+22:59,1.3872762711886613,103.74233635788737,(11/11)22:56 Vehicle breakdown on KJE (towards BKE) after Choa Chu Kang Way Exit.,Vehicle breakdown
+23:01,1.2963122592646856,103.85222151252924,(11/11)22:58 Roadworks on Victoria Street (towards Miller Street) after Bras Basah Road.,Roadwork
+23:01,1.361199706453332,103.85849473151501,(11/11)22:58 Roadworks on CTE (towards AYE) before AMK Ave 1 Exit. Avoid lane 5.,Roadwork
+23:01,1.3953684413820795,103.77390070806942,(11/11)22:58 Vehicle breakdown on BKE (towards Woodlands) after KJE Exit.,Vehicle breakdown
+23:07,1.321683694572376,103.89121526967196,(11/11)23:03 Roadworks on Paya Lebar Road (towards Jalan Afifi) after PIE. Avoid left lane.,Roadwork
+23:07,1.2957719048213576,103.8517472482954,(11/11)22:58 Roadworks on Victoria Street (towards Bras Basah Road) after Stamford Road.,Roadwork
+23:11,1.2961614239367918,103.85172550635305,(11/11)23:05 Roadworks on Bras Basah Road (towards Raffles Boulevard) after Prinsep Street. Avoid left lane.,Roadwork
+23:13,1.3262293381964008,103.8311758773122,(11/11)22:33 Roadworks on PIE (towards Changi Airport) after Stevens Rd Exit.,Roadwork
+23:35,1.32667095277485,103.82804155696593,(11/11)23:33 Roadworks on PIE (towards Tuas) after Stevens Rd Exit. Avoid lane 5.,Roadwork
+23:37,1.34244456402711,103.94748599379278,(11/11)22:29 Roadworks on PIE (towards Changi Airport) at Simei Ave Exit.,Roadwork
+23:43,1.3265090452252917,103.8284503995968,(11/11)23:33 Roadworks on PIE (towards Tuas) at Stevens Rd Exit.,Roadwork
+23:49,1.3037064430625112,103.74380957317051,(11/11)23:47 Roadworks on Jalan Buroh (towards City) after Penjuru Road. Avoid right lane.,Roadwork
+23:51,1.3038576921925815,103.77177481337294,(11/11)23:48 Vehicle breakdown on AYE (towards Tuas) before Clementi Ave 2 Exit.,Vehicle breakdown
+23:51,1.2944367201293914,103.86660311892487,(11/11)23:47 Roadworks on ECP (towards Changi Airport) before Fort Rd Exit. Avoid lane 5.,Roadwork
+23:51,1.2951772593171085,103.87047325272756,(11/11)21:39 Roadworks on ECP (towards Changi Airport) before Fort Rd Exit. Avoid lane 1.,Roadwork
+23:57,1.3373013907695517,103.89573829090963,(11/11)23:55 Roadworks on KPE (towards TPE) after Bartley Rd East Exit. Avoid lane 3.,Roadwork
