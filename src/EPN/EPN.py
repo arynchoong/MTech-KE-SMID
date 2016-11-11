@@ -52,32 +52,41 @@ def getTimeDifference(TimeStart, TimeEnd):
 timewrite_30min = datetime.now() - timedelta(minutes=30)
 timewrite_5min = timewrite_2min = timewrite_10min = timewrite_30min
 
+initFlag = False
+
 print(datetime.now())
 while ((datetime.now().month == 11) and (datetime.now().day < 13)):
     timeNow = datetime.now()
 
+    ## Get Input Events
     if getTimeDifference(timewrite_5min, timeNow) > 5 :
         # Traffic Speed Band data - updates every 5 minutes
         request = urllib.request.Request(uri + path_TSB, headers=headers)
         try:
             response = urlopen(request).read().decode('utf-8')
         except HTTPError as e:
-            print (e)
+            print ('TSB' + datetime.now())
+            continue
         else:
             jsonObj = json.loads(response)
             messages = jsonObj.get("value")
             dfTSB = pandas.DataFrame(messages)
+            dfTSB = dfTSB.set_index('LinkID')
+            dfTSB.index.name = None
+            #print(dfTSB.head(2))
 
         # ESTIMATED TRAVEL TIMES data - updates every 5 minutes
         request = urllib.request.Request(uri + path_ETT, headers=headers)
         try:
             response = urlopen(request).read().decode('utf-8')
         except HTTPError as e:
-            print (e)
+            print ('ETT err' + datetime.now())
+            continue
         else:
             jsonObj = json.loads(response)
             messages = jsonObj.get("value")
             dfETT = pandas.DataFrame(messages)
+            #print(dfETT.head(2))
             
         # set time for diff 5 mins
         timewrite_5min = datetime.now()
@@ -88,11 +97,13 @@ while ((datetime.now().month == 11) and (datetime.now().day < 13)):
         try:
             response = urlopen(request).read().decode('utf-8')
         except HTTPError as e:
-            print (e)
+            print ('TI err' + datetime.now())
+            continue
         else:
             jsonObj = json.loads(response)
             messages = jsonObj.get("value")
             dfTI = pandas.DataFrame(messages)
+            #print(dfTI.head(2))
         # set time for diff 2 mins
         timewrite_2min = datetime.now()
 
@@ -102,13 +113,35 @@ while ((datetime.now().month == 11) and (datetime.now().day < 13)):
         try:
             parsed = objectify.parse(urlopen(request))
         except HTTPError as e:
-            print (e)
+            print ('Nowcast err' + datetime.now())
+            continue
         else:
             parsed = objectify.parse(urlopen(request))
             root = parsed.getroot()
             dfNowcast = pandas.DataFrame(columns=['Forecast', 'Latitude', 'Longitude', 'Name'])
             for area in root.iter('area'):
                 dfNowcast = dfNowcast.append({'Forecast':area.get('forecast'),'Latitude':area.get('lat'),'Longtitude':area.get('lon'),'Name':area.get('name')}, ignore_index=True)
+            dfNowcast = dfNowcast.set_index('Name')
+            dfNowcast.index.name = None
+            #print(dfNowcast.head(2))
+
+        # collect Heavy Rain Warning data - updates every hour
+        request = urllib.request.Request(urlWarning)
+        try:
+            parsed = objectify.parse(urlopen(request))
+        except HTTPError as e:
+            print ('Warning err' + datetime.now())
+            continue
+        else:
+            parsed = objectify.parse(urlopen(request))
+            root = parsed.getroot()
+            HRWmsg = root.item.warning.text
+            HRWmsg = HRWmsg.strip()
+            HRWtime = root.item.issue_datentime.text
+            HRWtime = HRWtime.strip()
+            if not ('NIL' in HRWmsg):
+                print(HRWmsg)
+
         # set time for diff 30 mins
         timewrite_30min = datetime.now()
 
@@ -117,10 +150,11 @@ while ((datetime.now().month == 11) and (datetime.now().day < 13)):
         try:
             driver.get(urlRainfall)
         except HTTPError as e:
-            print (e)
+            print ('Rainfall err' + datetime.now())
+            continue
         else:
             # wait for page load
-            time.sleep(2)
+            time.sleep(3)
             html30mins = driver.page_source
             bsObj = BeautifulSoup(html30mins,"lxml")
             driver.close()
@@ -133,12 +167,30 @@ while ((datetime.now().month == 11) and (datetime.now().day < 13)):
             dfRainfall = pandas.DataFrame(columns=['StationId', 'rain30mins'])
             for data in dataset30mins:
                 dfRainfall = dfRainfall.append({'StationId':data.get('id'), 'rain30mins':data.get_text()},ignore_index=True)
+            dfRainfall = dfRainfall.set_index('StationId')
+            dfRainfall.index.name = None
+            #print(dfRainfall.head(2))
+
         # set time for diff 10 mins
         timewrite_10min = datetime.now()
 
+    ## Process Events 
+    ## Check for Events trigger
+    if not (initFlag):
+        # set up initial data for comparison
+        dfTSBprev = dfTSB
+        dfETTprev = dfETT
+        dfTIprev = dfTI
+        dfNowcastPrev = dfNowcast
+        dfRainfallPrev = dfRainfall
+        initFlag = True
+    else:
+        #compare changes
+        
+    
     # wait 2 minutes
     time.sleep(120)
-
+    
 # on exit loop:
 print('exit' + datetime.now())
 
