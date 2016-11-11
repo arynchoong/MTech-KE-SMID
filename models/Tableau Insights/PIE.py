@@ -49,8 +49,6 @@ def FindNearestExit(latitude,longtitude,ExpresswayArray,Direction):
                     NearestDistanceSoFar = CurrentDistance
                     NearestExit = row
     return NearestExit
-PieArray = []
-ReadFromExpresswayCsv("pie.csv", PieArray)
 
 def FindNearestEntrance(latitude,longtitude,ExpresswayArray,Direction):
     NearestDistanceSoFar = 1000
