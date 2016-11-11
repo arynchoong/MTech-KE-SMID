@@ -22,6 +22,7 @@ import time
 import pandas
 import numpy
 import re
+import csv
 
 # Authentication parameters for LTA
 headers = { 'AccountKey' : 'LBdfS4+RSEi4witEa6RjjQ==',
@@ -61,15 +62,22 @@ def getDataframeDifferenceIndexed(df1, df2):
     diff = pandas.DataFrame({'from': changed_from, 'to': changed_to}, index=changed.index)
     return diff
 
+# string patterns for regular expressions
+patternTime = re.compile('[0-9]+:[0-9]+')
+patternStation = re.compile('<strong>([A-Za-z ()]+)</strong>')
+patternMsg = re.compile('^\([0-9]+/[0-9]+\)[0-9]+:[0-9]+([A-Za-z ()]+)')
+
 #initialise timewrites to 30 minutes ago
 timewrite_30min = datetime.now() - timedelta(minutes=31)
 timewrite_5min = timewrite_2min = timewrite_10min = timewrite_30min
 
+filepath_TI = 'EPNmsg.csv'
 initFlag = False
 
 print(datetime.now())
 while ((datetime.now().month == 11) and (datetime.now().day < 13)):
     timeNow = datetime.now()
+    today = datetime.now().strftime("%Y-%m-%d")
 
     ## Get Input Events
     if getTimeDifference(timewrite_5min, timeNow) > 5 :
@@ -167,8 +175,7 @@ while ((datetime.now().month == 11) and (datetime.now().day < 13)):
             driver.close()
             # Get data timestamp
             element = bsObj.find("img", {"id":"basemap"})
-            pattern = re.compile('[0-9]+:[0-9]+')
-            rainfallTimestamp = pattern.findall(element.attrs['src'])[0]
+            rainfallTimestamp = patternTime.findall(element.attrs['src'])[0]
             # load 30 mins rainfall data
             dataset30mins =  bsObj.findAll("",{"class":"sgr"})
             dfRainfall = pandas.DataFrame(columns=['StationId', 'rain30mins', 'Station'])
@@ -211,16 +218,25 @@ while ((datetime.now().month == 11) and (datetime.now().day < 13)):
             for id, row in diffETT.iterrows():
                 if (id[1] == 'EstTime'):
                     if (row['from'] < row['to']):
-                        print ("Lightening traffic from " + dfETT.get_value(id[0],'StartPoint')  + " to " + dfETT.get_value(id[0],'EndPoint'))
+                        print ("Lessen traffic from " + dfETT.get_value(id[0],'StartPoint')  + " to " + dfETT.get_value(id[0],'EndPoint'))
                     else:
-                        print ("Slowing down from " + dfETT.get_value(id[0],'StartPoint')  + " to " + dfETT.get_value(id[0],'EndPoint'))
+                        print ("Slowdown from " + dfETT.get_value(id[0],'StartPoint')  + " to " + dfETT.get_value(id[0],'EndPoint'))
             dfETTprev = dfETT
 
         if not (dfTIprev.equals(dfTI)):
             diffTI = pandas.concat([dfTI, dfTIprev, dfTIprev]).drop_duplicates(keep=False)
-            print("\n" + datetime.now().strftime("%H:%M") + " TRAFFIC INCIDENCE")
-            for id, row in diffTI.iterrows():
-                print(row['Message'])
+            if not (diffTI.empty):
+                print("\n" + datetime.now().strftime("%H:%M") + " TRAFFIC INCIDENCE")
+                # ouput to csv
+                fileTI = open(filepath_TI, 'w', newline='')
+                csvWriter = csv.writer(fileTI, delimiter=',')
+                csvWriter.writerow(['Date','Time', 'Message', 'Type', 'Latitude', 'Longitude'])
+                for id, row in diffTI.iterrows():
+                    print(row['Message'])
+                    msgTimestamp = patternTime.findall(row['Message'])
+                    msg = patternMsg.findall(row['Message'])
+                    csvWriter.writerow([today, msgTimestamp[0], msg[0], row["Type"],row["Latitude"], row["Longitude"]])
+                fileTI.close()
             dfTIprev = dfTI
 
         if not (dfNowcastPrev.equals(dfNowcast)):
