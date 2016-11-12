@@ -167,8 +167,8 @@ while ((datetime.now().month == 11) and (datetime.now().day < 13)):
             driver.close()
             # Get data timestamp
             element = bsObj.find("img", {"id":"basemap"})
-            pattern = re.compile('[0-9]+:[0-9]+')
-            rainfallTimestamp = pattern.findall(element.attrs['src'])[0]
+            #pattern = re.compile('[0-9]+:[0-9]+')
+            #rainfallTimestamp = pattern.findall(element.attrs['src'])[0]
             # load 30 mins rainfall data
             dataset30mins =  bsObj.findAll("",{"class":"sgr"})
             dfRainfall = pandas.DataFrame(columns=['StationId', 'rain30mins'])

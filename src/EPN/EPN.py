@@ -175,7 +175,7 @@ while ((datetime.now().month == 11) and (datetime.now().day < 13)):
             driver.close()
             # Get data timestamp
             element = bsObj.find("img", {"id":"basemap"})
-            rainfallTimestamp = patternTime.findall(element.attrs['src'])[0]
+            #rainfallTimestamp = patternTime.findall(element.attrs['src'])
             # load 30 mins rainfall data
             dataset30mins =  bsObj.findAll("",{"class":"sgr"})
             dfRainfall = pandas.DataFrame(columns=['StationId', 'rain30mins', 'Station'])
@@ -217,7 +217,7 @@ while ((datetime.now().month == 11) and (datetime.now().day < 13)):
             print("\n" + datetime.now().strftime("%H:%M") + " ESTIMATED TRVEL TIME")
             for id, row in diffETT.iterrows():
                 if (id[1] == 'EstTime'):
-                    if (row['from'] < row['to']):
+                    if (row['from'] > row['to']):
                         print ("Lessen traffic from " + dfETT.get_value(id[0],'StartPoint')  + " to " + dfETT.get_value(id[0],'EndPoint'))
                     else:
                         print ("Slowdown from " + dfETT.get_value(id[0],'StartPoint')  + " to " + dfETT.get_value(id[0],'EndPoint'))
@@ -243,13 +243,13 @@ while ((datetime.now().month == 11) and (datetime.now().day < 13)):
             print("\n" + datetime.now().strftime("%H:%M") + " 2 HOUR FORECAST")
             diffNowcast = getDataframeDifferenceIndexed(dfNowcastPrev, dfNowcast)
             for id, row in diffNowcast.iterrows():
-                if (row['Forecast']  == "HR"):
+                if (row['from']  == "HR"):
                     print ("Heavy Rain Forecast in " + id[0])
-                elif (row['Forecast']  == "HG"):
+                elif (row['from']  == "HG"):
                     print ("Heavy Thundery Showers with Gusty Winds Forecast in " + id[0])
-                elif (row['Forecast']  == "HS"):
+                elif (row['from']  == "HS"):
                     print ("Heavy Showers with Gusty Winds Forecast in " + id[0])
-                elif (row['Forecast']  == "HT"):
+                elif (row['from']  == "HT"):
                     print ("Heavy Thundery Showers with Gusty Winds Forecast in " + id[0])
             dfNowcastPrev = dfNowcast
 
